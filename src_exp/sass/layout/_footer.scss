@@ -1,0 +1,14 @@
+.footer {
+    font-size: 1.6rem;
+    text-align: center;
+    opacity: .85;
+    padding: 2rem 0;
+    font-weight: 400;
+
+    &__link {
+        font-family: 'Raleway', sans-serif;
+        text-decoration: none;
+        color: currentColor;
+        border-bottom: 1px solid rgba($color-text, .3);
+    }
+}

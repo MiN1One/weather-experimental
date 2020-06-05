@@ -1,0 +1,17 @@
+.row {
+    max-width: 91rem;
+    margin: 0 2rem 0 2rem;
+    height: max-content;
+
+    @include respond(950) {
+        width: 97%;
+        margin: 0 auto;
+    }
+}
+
+.active {
+
+    &::before {
+        transform: scale(1) !important;
+    }
+}

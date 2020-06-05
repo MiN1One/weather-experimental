@@ -1,0 +1,944 @@
+<svg width="0" height="0" class="hidden">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_accelerator">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32.001.887C49.185.887 63.114 14.816 63.113 32 63.114 49.185 49.184 63.115 32 63.113 14.815 63.114.887 49.185.888 32.001.885 14.816 14.815.887 32.001.887z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M10 32a21.93 21.93 0 0 1 6.444-15.556c8.591-8.593 22.521-8.593 31.112 0A21.93 21.93 0 0 1 54 32m-30-6l6.333 7.333"></path>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="35" r="2"></circle>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_alarm">
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="26"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 20v12l8 4M21.995 56.005L15 63m34 0l-6.995-6.995M1 8l4-4 10 2L3 18zm58-4l4 4-2 10L49 6z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_anchor">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 13v50"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M19 50L9 47 6 57m39-7l10-3 4 10"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M54.752 47C51.555 56.301 42.576 63 32 63c-10.575 0-19.553-6.698-22.751-15.998M23 17h18"></path>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="7" r="6"></circle>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_anticlockwise">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 12v20l9 9M4 32h4m48 0h4M32 60v-4m0-48V4"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 63C14.879 63 1 49.121 1 32S14.879 1 32 1m0 62c17.121 0 31-13.879 31-31a30.857 30.857 0 0 0-5.759-18l-5.62-5.621"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M51 19V8h11"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_archive">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M5 41l6-40h42l6 40m-38 0c0 6.075 4.925 11 11 11s11-4.925 11-11h16v22H5V41h16z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_archive_full">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M5 41l6-40h42l6 40m-38 0c0 6.075 4.925 11 11 11s11-4.925 11-11h16v22H5V41h16zm-9-10h40M14 21h36M16 11h32"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_ban">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M53.919 10.08c12.108 12.106 12.108 31.733 0 43.84-12.105 12.107-31.732 12.107-43.838 0-12.108-12.106-12.108-31.733 0-43.84 12.106-12.107 31.732-12.107 43.838 0zm-43.839 0l43.84 43.84"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_battery_charge">
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M1 21h58v24H1zm58 6h4v12h-4"></path>
+      <path d="M5 25h50v16H5z"></path>
+    </g>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M22 33l7-3v6l7-3"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_battery_empty">
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M1 21h58v24H1zm58 6h4v12h-4"></path>
+      <path d="M18 41H5V25h9z"></path>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_battery_full">
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M1 21h58v24H1zm58 6h4v12h-4"></path>
+      <path d="M5 25h50v16H5z"></path>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_battery_half">
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M1 21h58v24H1zm58 6h4v12h-4"></path>
+      <path d="M33 41H5V25h24z"></path>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_bolt">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M40 1L17 37h14l-7 26 26-36H36z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_book">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M7 1h46v62H7zm8 62V2m5 13h28m-28 6h28"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_book_pen">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 1h46v62H1zm8 62V2m5 13h28m-28 6h28M63 3v50l-4 8-4-8V3zm-8 4h-4v10"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_book_pencil">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 1h46v62H1zm8 62V2m5 13h28m-28 6h28M55 1v53l4 8 4-8V1zm0 10h8"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_bookmark">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M18 1h28v61L32 48 18 62z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_calculator">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 1h62v62H1zm17 7v20m10-10H8m48 0H36M10 54l16-16m-16 0l16 16m10-11h20m-20 6h20"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_calendar">
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M46 10H18m-6 0H1v48h62V10H52"></path>
+      <path d="M12 6h6v8h-6zm34 0h6v8h-6zM10 24h10v10H10zm0 18h10v10H10zm34-18h10v10H44zm0 18h10v10H44zM27 24h10v10H27zm0 18h10v10H27z"></path>
+    </g>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 18h62"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_cards_diamonds">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M44 59L16 45 36 5l27 14z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M31.899 14.004L28 6 1 20l18 39 13-6.036M35 41l11-5-1-12-11 5zm3-32l-1 2M7 23l-1-2m37 32l-1 2"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_cards_hearts">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M44 59L16 45 36 5l27 14z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M31.899 14.004L28 6 1 20l18 39 13-6.036M38 9l-1 2M7 23l-1-2m37 32l-1 2"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M33 25c-2.848 5.281 3 15 3 15s11.151.28 14-5c1.18-2.188 1.377-5.718-1-7-2.188-1.18-5.82-1.188-7 1 1.18-2.188.188-4.82-2-6-2.376-1.282-5.819-.187-7 2z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_case">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 18h62v36H1zm0 12h62"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M27 30v6h10v-6M23 18s0-8 9-8 9 8 9 8"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_chronometer">
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M51.799 15.202c10.936 10.933 10.936 28.662 0 39.595-10.935 10.938-28.664 10.938-39.598 0-10.935-10.933-10.935-28.662 0-39.595 10.934-10.936 28.663-10.936 39.598 0z"></path>
+      <path d="M32 7V1h6M26 1h6m0 62v-4m0-48V7M4 35h4m48 0h4M14.564 17.565l2.83 2.829m29.212 29.212l2.83 2.83m0-34.871l-2.829 2.829M17.395 49.606l-2.831 2.83M32 21v12"></path>
+      <circle cx="32" cy="35" r="3"></circle>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_clessidre">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M14 1h36v4H14zm0 58h36v4H14zm4 0V45c0-6 29-19 29-25V5"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M47 59V45c0-6-29-19-29-25V5"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_clock">
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M53.92 10.081c12.107 12.105 12.107 31.732 0 43.838-12.106 12.108-31.734 12.108-43.84 0-12.107-12.105-12.107-31.732 0-43.838 12.106-12.108 31.733-12.108 43.84 0z"></path>
+      <path d="M32 12v20l9 9M4 32h4m48 0h4M32 60v-4m0-48V4"></path>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_clockwise">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 12v20l9 9M4 32h4m48 0h4M32 60v-4m0-48V4"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 63c17.121 0 31-13.879 31-31S49.121 1 32 1m0 62C14.879 63 1 49.121 1 32a30.857 30.857 0 0 1 5.759-18l5.62-5.621"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M13 19V8H2"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_cloud">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M41 50h14c4.565 0 8-3.582 8-8s-3.435-8-8-8c0-11.046-9.52-20-20.934-20C23.966 14 14.8 20.732 13 30h-1.667C5.626 30 1 34.477 1 40s4.293 10 10 10h30"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_clubs">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M30 38v6s0 19-7 19h9m0 0h9c-7 0-7-19-7-19v-6"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M34 38c0 7.457 8.044 12.125 15.5 12.125 7.455 0 13.5-6.043 13.5-13.5s-6.045-13.5-13.5-13.5c-2.678 0-5.168.789-7.267 2.135a13.374 13.374 0 0 0 3.204-8.697c0-7.422-6.017-13.438-13.438-13.438S18.562 9.141 18.562 16.562c0 3.32 1.21 6.353 3.205 8.697a13.43 13.43 0 0 0-7.268-2.135c-7.456 0-13.5 6.043-13.5 13.5s6.044 13.5 13.5 13.5C21.955 50.125 30 45.457 30 38"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_compass">
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="35" r="28.292"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M37 40l8-19-19 8-7 18z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M26 29l11 11m-.1-33a5 5 0 1 0-9.8 0M32 7v5m0 46v5m28-28h-5M9 35H4"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_cup">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M16 27c0 4.418 6.059 8 16 8s16-3.582 16-8V1H16v26zm4 36h24M32 35v28M16 7H7s0 9 9 9m32-9h9s0 9-9 9"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_diamonds">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M33 63l23-31L33 1 10 32z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_display">
+    <path d="M1 10h62v41H1zm21 53h20m-10 0V51M1 43h63" fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_download">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M40 50l-8 8-8-8"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 58V26m-8 16H1V6h62v36H40"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_exclamation">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M53.92 10.081c12.107 12.105 12.107 31.732 0 43.838-12.106 12.108-31.734 12.108-43.84 0-12.107-12.105-12.107-31.732 0-43.838 12.106-12.108 31.733-12.108 43.84 0z"></path>
+    <path stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 17v22m0 4v4"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_eye">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 32s11 15 31 15 31-15 31-15-11-15-31-15S1 32 1 32z"></path>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="7"></circle>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_eye_closed">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 32s11 15 31 15 31-15 31-15-11-15-31-15S1 32 1 32z"></path>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="7"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M9 55L55 9"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_female">
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="39" cy="25" r="24"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 63l21-21M1 46l17 17"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_flag1">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M12 0v64m0-58h41l-6 12 6 12H12"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_flag2">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M7 0v64M32.062 6L26 11v24h31l-6-12 6-12H26"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M26 30H7V6h25v5"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_floppydisk">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M63 63H1V1h50l12 12z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M7 31h50v32H7zm7 8h36m-36 8h36m-36 8h36M15 1h34v19H15z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M38 5h5v11h-5z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_folder">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M63 18v36H1V10h21l8 8z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_folder_multiple">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M56 22v32H1V15h18.629l7.097 7z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M8 13V7h18.629l7.097 7H63v32h-5"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_gear">
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M32 1h-6v9l-6 2-6-6-8 8 6 6-2 6H1v12h9l2 6-6 6 8 8 6-6 6 2v9h12v-9l6-2 6 6 8-8-6-6 2-6h9V26h-9l-2-6 6-6-8-8-6 6-6-2V1z"></path>
+      <circle cx="32" cy="32" r="6"></circle>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_geolocalize-01">
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <circle cx="32" cy="22" r="6"></circle>
+      <path d="M53 22.735C52.948 10.73 43.599 1 32 1s-21 9.73-21 21.735C11 38.271 31.965 63 31.965 63S53.069 38.271 53 22.735z"></path>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_geolocalize-05">
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <circle cx="32" cy="19.001" r="4"></circle>
+      <path d="M45 21.023C44.968 13.276 39.181 7 32 7s-13 6.276-13 14.023C19 31.046 31.979 47 31.979 47S45.043 31.046 45 21.023z"></path>
+    </g>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M21 37h-9L1 57h62L52 37h-9"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_globe">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 1c14.359 0 27 12.641 27 27S46.359 55 32 55c-10 0-13-4-13-4"></path>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="28" r="20"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 54v10m-10-1h20"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_gunsight">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 48v16m0-64v16M16 32H0m64 0H48"></path>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="24"></circle>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_hammer">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M22 20l19 19m22 16l-5.999 6-19-19 6-6zM1 19L17 3c6 6 13 1 13 1l4 4-22 22L1 19z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_headset">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M11 48C5.477 48 1 43.523 1 38s4.477-10 10-10h2v20h-2zm42-20c5.523 0 10 4.477 10 10s-4.477 10-10 10h-2V28h2zm-40 3v-9S13 6 32 6s19 16 19 16v6m0 20v5l-15 6h-8v-4h8v3"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_heart">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 21c0 20 31 38 31 38s31-18 31-38c0-8.285-6-16-15-16-8.285 0-16 5.715-16 14 0-8.285-7.715-14-16-14C7 5 1 12.715 1 21z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_heart_broken">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 21c0 20 31 38 31 38s31-18 31-38c0-8.285-6-16-15-16-8.285 0-16 5.715-16 14 0-8.285-7.715-14-16-14C7 5 1 12.715 1 21z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M29 57l7-7-6-6 6-6-6-6 8-8-6-5v-2"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_helm">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 40v24m0-64v24m6 13l21 17M5 10l21 17m12 0l21-16M5 53l21-16"></path>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="8"></circle>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="24"></circle>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_home">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 3L2 33h9v30h12V47h16v16h12V33h11z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_info">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M53.92 10.081c12.107 12.105 12.107 31.732 0 43.838-12.106 12.108-31.734 12.108-43.84 0-12.107-12.105-12.107-31.732 0-43.838 12.106-12.108 31.733-12.108 43.84 0z"></path>
+    <path stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 47V25m0-4v-4"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_ipod">
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M16 1h32v62H16zm0 35h32M16 5h32"></path>
+      <circle stroke-linejoin="bevel" cx="31.5" cy="49.5" r="9.5"></circle>
+      <circle stroke-linejoin="bevel" cx="31.5" cy="49.5" r="2.5"></circle>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_joypad">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M50 27H14C6.82 27 1 32.82 1 40s5.82 13 13 13c4.6 0 8.632-2.396 10.943-6h14.113C41.368 50.604 45.4 53 50 53c7.18 0 13-5.82 13-13s-5.82-13-13-13z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M14 32v16m8-8H6"></path>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" cx="50" cy="39.99" r="7"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M50 33v14m7-7H43"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 27v-6h14v-7H36v-3"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_key">
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="51" cy="32" r="12"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M0 32h38M6 32v10m8-10v6"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_keyboard">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 22h62v30H1zm6 0v-8h14V7H11V4M4 29h4m2 0h4m2 0h4m2 0h4m2 0h4m2 0h4m2 0h4m2 0h4m2 0h4M4 45h4m2 0h4m2 0h26m8 0h4m2 0h4m-16 0h4M8 37h4m2 0h4m2 0h4m2 0h4m2 0h4m2 0h4m2 0h4m2 0h4m2 0h4"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_laptop">
+    <path d="M8 12h48v34H8zM1 46h62v6H1zm33-30h-4" fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_life_buoy">
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="31"></circle>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="15"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M26 18V1m12 17V1M26 63V46m12 17V46m8-20h17M46 38h17M1 26h17M1 38h17"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_lightbulb">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M21 40v5h22l.001-5.107C49 36.195 53 29.564 53 22c0-11.598-9.402-21-21-21s-21 9.402-21 21c0 7.565 3.998 14.304 10 18zm7 5l-3-20m11 20l3-20"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M25 26l4 3 3-3 3 3 4-3M21 45h22v6H21zm2 6h18v6H23zm2 6h14v6H25z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_link">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M37.004 32.166a9.97 9.97 0 0 0 3.997.828 9.99 9.99 0 0 0 7.998-4.006L60.99 16.98a9.953 9.953 0 0 0 1.996-6.002C62.983 5.456 58.502.981 52.979.985a9.961 9.961 0 0 0-5.999 2.004L33.989 15.998c-1.768 1.805-2.997 4.277-2.996 7.003.001 1.424.3 2.778.837 4.003m.001 0c.053.121.107.24.166.358m-5 4.474a9.946 9.946 0 0 0-3.998-.83A9.959 9.959 0 0 0 17 33.01L4.01 46.02c-1.768 1.804-2.997 4.276-2.995 7.002.003 5.522 4.484 9.997 10.007 9.993a9.987 9.987 0 0 0 7.997-4.006L31.01 47.001a9.953 9.953 0 0 0 1.996-6.002 9.96 9.96 0 0 0-.835-3.998m-9.165 4.005l17.988-18.012"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_lock">
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M8 33h48v30H8zm8 0V17c0-8.837 7.163-16 16-16s16 7.163 16 16v16"></path>
+      <circle cx="32" cy="47" r="4"></circle>
+      <path d="M32 51v4"></path>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_lock_open">
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M8 33h48v30H8zm8 0V17c0-8.837 7.163-16 16-16s16 7.163 16 16v3"></path>
+      <circle cx="32" cy="47" r="4"></circle>
+      <path d="M32 51v4"></path>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_magic_mouse">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M48 17c0-8.836-7.164-16-16-16S16 8.164 16 17v30c0 8.836 7.164 16 16 16s16-7.164 16-16V17zm-16-7v8"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_magnifier">
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <circle cx="21" cy="21" r="20"></circle>
+      <path d="M35 35l6 6m22 16l-5.999 6-19-19 6-6z"></path>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_magnifier_minus">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M12 21h18"></path>
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <circle cx="21" cy="21" r="20"></circle>
+      <path d="M35 35l6 6m22 16l-5.999 6-19-19 6-6z"></path>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_magnifier_plus">
+    <path d="M12 21h18m-9-9v18" fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10"></path>
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <circle cx="21" cy="21" r="20"></circle>
+      <path d="M35 35l6 6m22 16l-5.999 6-19-19 6-6z"></path>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_mail">
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M1 13h62v37H1z"></path>
+      <path d="M1 13l31 20 31-20"></path>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_mail_multiple">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 18h52v32H1z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M9.887 16V9H63v32h-8"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M.887 18L27 33.062 53 18"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_mail_open">
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M1 26l31 19.434L63 26"></path>
+      <path d="M11.334 21.667L1 26v37h62V26l-10.334-4.333"></path>
+      <path d="M11 32V1h42v31"></path>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_mail_open_text">
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M36 9h9m-26 8h26m-26 8h26M1 26l31 19.434L63 26"></path>
+      <path d="M11.334 21.667L1 26v37h62V26l-10.334-4.333"></path>
+      <path d="M11 32V1h42v31"></path>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_male">
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="25" cy="39" r="24"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M63 1L42 22"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M45 1h18v18"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_map">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 59l21-8 20 8 21-8V5l-21 8-20-8-21 8zM22 5v46m20-38v46"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_message">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 47h31V5H1v42h17v12z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_message_multiple">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M26 49.042h28.963v-38H1v38h13v10.444z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M57 41.042h5.963v-38H9V9"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_message_txt">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M10 16h44M10 26h44M10 36h44M32 47h31V5H1v42h17v12z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_mixer2">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M12 19v45M52 0v45m-20-7v26m0-64v26"></path>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="12" cy="13" r="6"></circle>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="52" cy="51" r="6"></circle>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="6"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M12 0v7m40 50v7"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_mouse">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M48 17c0-8.836-7.164-16-16-16S16 8.164 16 17v30c0 8.836 7.164 16 16 16s16-7.164 16-16V17zM32 1v20m-16 0h32"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_notebook">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M11 1h42v62H11zm30 0v61M15 16H7m8-8H7m8 16H7m8 8H7m8 8H7m8 8H7m8 8H7"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_notebook_pen">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M63 3v50l-4 8-4-8V3zm-8 4h-4v10M4 3h40v58H4zm30 0v57M8 16H0m8-8H0m8 16H0m8 8H0m8 8H0m8 8H0m8 8H0"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_notebook_pencil">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M4 3h40v58H4zm30 0v57M8 16H0m8-8H0m8 16H0m8 8H0m8 8H0m8 8H0m8 8H0M55 1v53l4 8 4-8V1zm0 10h8"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_paperplane">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M1 30L63 1 23 41z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M34 63L63 1 23 41z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_pencil_ruler">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 63V2l61 61z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M14 54V30l24 24zM8 22H2m4 8H2m6 8H2m4 8H2m6 8H2M25 1l-6 6 36 36 8 2-2-8zm0 12l6-6"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_pencil_ruler_pen ">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M22 1h16v62H22zm9 11h7m0 10h-3m3 20h-3m-4-10h7m-7 20h7M16 63V10l-4-8-4 8v53zm0-10H8M56 3v50l-4 8-4-8V3zm-8 4h-4v10"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_photo">
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M46 20l-8-10H26l-8 10H1v32h62V20z"></path>
+      <circle cx="32" cy="36" r="8"></circle>
+      <path d="M9 20v32m45-24"></path>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_picture">
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M1 11h62v42H1z"></path>
+      <path d="M1 47l23-20 12 12 6-8 21 18"></path>
+      <circle cx="51" cy="22" r="5"></circle>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_picture_multiple">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 16h52v40H1z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M10 14V8h53v40h-8M1 46l14-14 14 16 10-6 14 12"></path>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="40" cy="29" r="5"></circle>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_pin1">
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="16" r="15"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M22.083 16c0-5.477 4.44-9.917 9.917-9.917M32 64V31"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_pin2">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 64V36m0-35H22v4l5 4-2 17-9 4-1 6h17m0-35h10v4l-5 4 2 17 9 4 1 6H32"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_postcard">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 13h62v41H1z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M49 19h8v10h-8zm-10-1v31M6 21h28M6 27h24M6 33h26"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_postcard_multiple">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 20h53v34H1z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M10 16.999V11h53v34h-6"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M42 25h7v8h-7zm-9-1v26M5 27h24M5 32h21M5 37h22"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_printer">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M16 1h32v19H16zm0 51H1V20h62v32H48"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M16 39h32v24H16zM6 27h4m2 0h4m6 20h20m-20 8h20"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_question">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M53.92 10.081c12.107 12.105 12.107 31.732 0 43.838-12.106 12.108-31.734 12.108-43.84 0-12.107-12.105-12.107-31.732 0-43.838 12.106-12.108 31.733-12.108 43.84 0z"></path>
+    <path stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M30 43v4"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M24 21c0-3 2-5 8-5 5 0 8 3 8 7s-6 7-6 7-4 2-4 8v1"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_rss">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M63.051 56a54.77 54.77 0 0 0-12.786-35.256m0 0C40.177 8.677 25.01 1 8.051 1m43.718 55c0-24.145-19.574-43.718-43.718-43.718M40.486 56c0-17.913-14.523-32.436-32.436-32.436M29.205 56c0-11.684-9.472-21.154-21.154-21.154"></path>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" cx="8.051" cy="56" r="7.051"></circle>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_server">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M5 41l6-40h42l6 40M5 41h54v22H5z"></path>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="48" cy="52" r="3"></circle>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_server_cloud">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M5 41l6-40h42l6 40M5 41h54v22H5z"></path>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="48" cy="52" r="3"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M34.887 27H39c1.887 0 3-1 3-3 0-1-1-3-3-3 0-3.604-3.277-6-7-6-3.295 0-6.413 2.978-7 6-2 0-3 2-3 3 0 2 1 3 3 3h10.434"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_server_download">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M5 41l6-40h42l6 40M5 41h54v22H5z"></path>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="48" cy="52" r="3"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M40 23l-8 8-8-8"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 31V11"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_server_upload">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M5 41l6-40h42l6 40M5 41h54v22H5z"></path>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="48" cy="52" r="3"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M23.998 20l8-8 8 8"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M31.998 12v20"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_server2">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M59 56c0 3.866-11.641 7-26 7S7 59.866 7 56m52-16c0 3.866-11.641 7-26 7S7 43.866 7 40m52-16c0 3.866-11.641 7-26 7S7 27.866 7 24"></path>
+    <ellipse fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" cx="33" cy="8" rx="26" ry="7"></ellipse>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M7 8v48M59 8v48"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_settings">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M36 34l5 5m22 16l-5.999 6-19-19 6-6zM12 16l6-6L8 4 6 6zm16 10L15 13m43-.5l-8 3.75-4-4.125 3.5-8.062C39.5 4.062 37 9 37 14v4L3.5 52l-1.75 6 2.125 2 6.062-1.5L44 25h4c5 0 10-2.5 10-12.5z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_share">
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="51" cy="13" r="12"></circle>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="11" cy="42" r="10"></circle>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="48" cy="55" r="8"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M40 54l-20-8m-1-11l22-14"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_sheet">
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M23 1h32v62H9V15z"></path>
+      <path d="M9 15h14V1"></path>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_sheet_multiple ">
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M20 9h27v54H8V21z"></path>
+      <path d="M24 6l5-5h27v54h-7M8 21h12V9"></path>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_sheet_pen">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M63 3v50l-4 8-4-8V3zm-8 4h-4v10m-9-2v46H1V3h29zM8 13h12M8 23h27M8 31h27M8 39h27M8 47h27"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M42 15H30V3"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_sheet_pencil">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M42 15v46H1V3h29zM55 1v53l4 8 4-8V1zM8 13h12M8 23h27M8 31h27M8 39h27M8 47h27"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M42 15H30V3m25 8h8"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_sheet_txt ">
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M23 1h32v62H9V15z"></path>
+      <path d="M9 15h14V1m9 13h14M18 24h28M18 34h28M18 44h28M18 54h28"></path>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_signs">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M55 24H22V12h33l7 6zM9 28h33v12H9l-7-6zm23 12v24m0-36v-4m0-12V7m-8 56h16"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_smartphone">
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M16 1h32v62H16zm12 4h8M16 51h32M16 9h32"></path>
+      <circle stroke-linejoin="bevel" cx="32" cy="57" r="2"></circle>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_spades">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 63h9c-7 0-7-19-7-19v-6c0 7.671 6 13 13 13 8.334 0 14-7.329 14-15C61 17.48 32 1 32 1S3 17.48 3 36c0 7.671 6.667 15 15 15 7 0 11.395-5.87 12-13v6s0 19-7 19h9"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_spread">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 6v48l31 4 31-4V6l-31 4zm31 52V10"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_spread_bookmark">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 6v48l31 4 31-4V6l-31 4zm31 52V10"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M43 8v19l4-2 4 2V7"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_spread_text">
+    <path d="M1 6v48l31 4 31-4V6l-31 4zm31 52V10M7 16l19 2M7 26l19 2M7 36l19 2M7 46l19 2m31-32l-19 2m19 8l-19 2m19 8l-19 2m19 8l-19 2" fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_spread_text_bookmark">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 6v48l31 4 31-4V6l-31 4zm31 52V10"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M43 8v19l4-2 4 2V7M7 16l19 2M7 26l19 2M7 36l19 2M7 46l19 2m31-12l-19 2m19 8l-19 2"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_star">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 47L12 62l8-24L2 24h22l8-23 8 23h22L44 38l8 24z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_tablet">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M11 1h42v62H11zm17 4h8M11 51h42M11 9h42"></path>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" cx="32" cy="57" r="2"></circle>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_target">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M53.92 10.081c12.107 12.105 12.107 31.732 0 43.838-12.106 12.108-31.734 12.108-43.84 0-12.107-12.105-12.107-31.732 0-43.838 12.106-12.108 31.733-12.108 43.84 0z"></path>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="22.999"></circle>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="15"></circle>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="6.999"></circle>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_todo">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M23 8H10v55h44V8H41"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M36 5V1h-8v4h-4l-2 8h20l-2-8z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_todo_pen ">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M63 3v50l-4 8-4-8V3zm-8 4h-4v10M14 8H1v55h44V8H32"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M27 5V1h-8v4h-4l-2 8h20l-2-8z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_todo_pencil">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M55 1v53l4 8 4-8V1zm0 10h8M14 8H1v55h44V8H32"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M27 5V1h-8v4h-4l-2 8h20l-2-8z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_todo_txt">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M25 24h22M25 34h22M25 44h22M25 54h22M21 24h-4m4 10h-4m4 10h-4m4 10h-4m6-46H10v55h44V8H41"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M36 5V1h-8v4h-4l-2 8h20l-2-8z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_todolist_pen">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M16 24h22M16 34h22M16 44h22M16 54h22M12 24H8m4 10H8m4 10H8m4 10H8m6-46H1v55h44V8H32"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M27 5V1h-8v4h-4l-2 8h20l-2-8zm36-2v50l-4 8-4-8V3zm-8 4h-4v10"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_todolist_pencil">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M16 24h22M16 34h22M16 44h22M16 54h22M12 24H8m4 10H8m4 10H8m4 10H8m6-46H1v55h44V8H32"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M27 5V1h-8v4h-4l-2 8h20l-2-8zm28-4v53l4 8 4-8V1zm0 10h8"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_trashcan">
+    <path d="M25 8V1h14v7m-25 2v53h36V10M26 20v34m12-34v34M10 9h44" fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_trashcan_full">
+    <path d="M52 36l6-2 4 14-6 2M10 13h36v50H10zm12 9v34m12-34v34m13.926-34.105L60 63M12 13l2-7 8.857.143L25 13m-2.143-6.857L27 1h12l5 12" fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_trashcan_refresh">
+    <path d="M25 8V1h14v7m-25 2v53h36V10M10 9h44" fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M23 36c0 4.418 3.582 9 8 9h4"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M32 49l3-4-3-4"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M41 36c0-4.418-3.582-9-8-9h-4"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M32 23l-3 4 3 4"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_trashcan_remove">
+    <path d="M25 8V1h14v7m-25 2v53h36V10M10 9h44M39 43L25 29m0 14l14-14" fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_upload">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M24 34l8-8 8 8"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 26v32m-8-16H1V6h62v36H40"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_usb">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 14L14 1l14 14-13 13zm10 18l21-21 31 31-21 21zM7 13l9 9M13 7l9 9"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_video">
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M46 30l17-10v32L46 42v10H1V20h45zM6 28h4m4 0h4"></path>
+      <path d="M7 36h18v10H7zM6 12h26l8 8"></path>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_watch">
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="20"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M20 15V1h24v14m0 34v14H20V49m12-29v12l8 4"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_webpage">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 7h62v50H1zm0 8h62m-53-4H6m12 0h-4m12 0h-4"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_webpage_img_txt">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 7h62v50H1zm0 8h62m-53-4H6m12 0h-4m12 0h-4M6 25h27M6 33h27M6 41h27"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M38 25h19v16H38z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_webpage_multiple">
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M1 15h54v42H1z"></path>
+      <path d="M11 12V7h52v43h-5M1 23h54m-45-4H6m12 0h-4m12 0h-4"></path>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_webpage_txt">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M6 25h52M6 33h52M6 41h52M1 7h62v50H1zm0 8h62m-53-4H6m12 0h-4m12 0h-4"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_world">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32.001.887C49.185.887 63.114 14.816 63.113 32 63.114 49.185 49.184 63.115 32 63.113 14.815 63.114.887 49.185.888 32.001.885 14.816 14.815.887 32.001.887zM32 1v62m31-31H1"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M30 1S16 12 16 32s14 31 14 31m4-62s14 11 14 31-14 31-14 31"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M8 12s5 10 24 10 24-10 24-10M8 52s5-10 24-10 24 10 24 10"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_aquarius">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M0 28l16-12 4 12 16-12 4 12 15-12 8 12M0 48l16-12 4 12 16-12 4 12 15-12 8 12"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_aries">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M6 25s-5-5-5-11S3 1 13 1c13.25 0 19 22 19 63m26-39s5-5 5-11S61 1 51 1C37.75 1 32 23 32 64"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_cancer">
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="11" cy="27" r="10"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M5 19s7-6 28-6c15 0 31 10 31 10"></path>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="53" cy="37" r="10"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M59 45s-7 6-28 6C16 51 0 41 0 41"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_capricorn">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M9 5s0-4 6-4c5 0 4 10 4 10v29"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M19 11s0-10 7-10 7 10 7 10v29s-1 14 15 14"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M48 40c-3 0-12 1-12 12 0 1 1 11-12 11m24-9a7 7 0 1 0 0-14"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_cloud">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M55 50c4.565 0 8-3.435 8-8 0-4.565-3.435-9-8-9 0-11.414-9.586-20-21-20-10.102 0-19.2 6.423-21 16h-2C5.292 29 1 34.292 1 40s4.292 10 10 10h44z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_cloud_drop">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M18 40h-7C5.292 40 1 35.708 1 30s4.292-11 10-11h2C14.8 9.423 23.898 3 34 3c11.414 0 21 8.586 21 20 4.565 0 8 4.435 8 9s-3.435 8-8 8H45"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M23 42c0 5.034 4.136 8 9 8s8-2.966 8-8c0-7-8-17-8-17s-9 10-9 17z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_cloud_lightning">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M37 23L23 42h6l-2 13 14-19h-6z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M18 40h-7C5.292 40 1 35.708 1 30s4.292-11 10-11h2C14.8 9.423 23.898 3 34 3c11.414 0 21 8.586 21 20 4.565 0 8 4.435 8 9s-3.435 8-8 8h-9"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_cloud_snowflake">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M18 40h-7C5.292 40 1 35.708 1 30s4.292-11 10-11h2C14.8 9.423 23.898 3 34 3c11.414 0 21 8.586 21 20 4.565 0 8 4.435 8 9s-3.435 8-8 8h-9"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M21 37l2 3-2 3m22 0l-2-3 2-3m-13 3h-7m18 0h-7m-5 11l3-2 3 2m0-22l-3 2-3-2m3 13v7m0-18v7m-5.657-7.899l-.707 3.535-3.535.707m15.556 15.556l.707-3.535 3.535-.707M30 38l-4.364-4.364m12.728 12.728L34 42m-11.899 3.657l3.535.707.707 3.535m15.556-15.556l-3.535-.707-.707-3.535M30 42l-4.364 4.364m12.728-12.728L34 38"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_downpour_fullmoon">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M56 45c4.19 0 7-2.81 7-7 0-4.189-2.81-9-7-9 0-10.475-9.525-18-20-18-9.271 0-17.348 6.211-19 15h-2c-5.238 0-9 4.762-9 10s3.762 9 9 9h41z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M7.004 32.959a13.068 13.068 0 0 1-3.961-3.96A12.94 12.94 0 0 1 1 22C1 14.82 6.82 9 14 9c4.604 0 8.646 2.392 10.957 6.001M20 48l-8 14m18-14l-8 14m18-14l-8 14m18-14l-8 14"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_downpour_halfmoon">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M56 45c4.19 0 7-2.81 7-7 0-4.189-2.81-9-7-9 0-10.475-9.525-18-20-18-9.271 0-17.348 6.211-19 15h-2c-5.238 0-9 4.762-9 10s3.762 9 9 9h41z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M24.957 15.001C22.646 11.392 18.604 9 14 9c-.826 0-1.631.085-2.414.233A8.945 8.945 0 0 1 13 14.063a9 9 0 0 1-9 9 8.97 8.97 0 0 1-2.98-.516 12.936 12.936 0 0 0 2.023 6.452 13.068 13.068 0 0 0 3.961 3.96M20 48l-8 14m18-14l-8 14m18-14l-8 14m18-14l-8 14"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_downpour_sun">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M56 45c4.19 0 7-2.81 7-7 0-4.189-2.81-9-7-9 0-10.475-9.525-18-20-18-9.271 0-17.348 6.211-19 15h-2c-5.238 0-9 4.762-9 10s3.762 9 9 9h41z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M29.999 11.752A12.945 12.945 0 0 0 22 9C14.82 9 9 14.82 9 22c0 2.577.707 3.979 2 6m-5-6H0M22 6V0M10 10L4 4m16 44l-8 14m18-14l-8 14m18-14l-8 14m18-14l-8 14"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_drop">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M11 41.265C11.052 53.27 20.401 63 32 63s21-9.73 21-21.735C53 25.729 32.035 1 32.035 1S10.931 25.729 11 41.265z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_first_quarter ">
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="31"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 5H17m15 6H9m23 6H5m27 6H2m30 6H1m31 34V1m0 34H1m31 6H2m30 6H5m27 6H9m23 6H17"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_fog">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M55 40c4.565 0 8-3.435 8-8 0-4.565-3.435-9-8-9 0-11.414-9.586-20-21-20-10.102 0-19.2 6.423-21 16h-2C5.292 19 1 24.292 1 30s4.292 10 10 10m2 0h40m-40 8h40m-40 8h40"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_fog_fullmoon">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M56 45c4.19 0 7-2.81 7-7 0-4.189-2.81-9-7-9 0-10.475-9.525-18-20-18-9.271 0-17.348 6.211-19 15h-2c-5.238 0-9 4.762-9 10s3.762 9 9 9"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M7.004 32.959a13.068 13.068 0 0 1-3.961-3.96A12.94 12.94 0 0 1 1 22C1 14.82 6.82 9 14 9c4.604 0 8.646 2.392 10.957 6.001M17 45h37m-37 6h37m-37 6h37"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_fog_halfmoon">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M56 45c4.19 0 7-2.81 7-7 0-4.189-2.81-9-7-9 0-10.475-9.525-18-20-18-9.271 0-17.348 6.211-19 15h-2c-5.238 0-9 4.762-9 10s3.762 9 9 9"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M24.957 15.001C22.646 11.392 18.604 9 14 9c-.826 0-1.631.085-2.414.233A8.945 8.945 0 0 1 13 14.063a9 9 0 0 1-9 9 8.97 8.97 0 0 1-2.98-.516 12.936 12.936 0 0 0 2.023 6.452 13.068 13.068 0 0 0 3.961 3.96M17 45h37m-37 6h37m-37 6h37"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_fog_sun">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M56 45c4.19 0 7-2.81 7-7 0-4.189-2.81-9-7-9 0-10.475-9.525-18-20-18-9.271 0-17.348 6.211-19 15h-2c-5.238 0-9 4.762-9 10s3.762 9 9 9"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M29.999 11.752A12.945 12.945 0 0 0 22 9C14.82 9 9 14.82 9 22c0 2.577.707 3.979 2 6m-5-6H0M22 6V0M10 10L4 4m13 41h37m-37 6h37m-37 6h37"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_fullmoon">
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="31"></circle>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_gemini">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M0 8s16 4 32 4 32-4 32-4m0 48s-16-4-32-4-32 4-32 4m21-44v40m22-40v40"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_hail">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M55 40c4.565 0 8-3.435 8-8 0-4.565-3.435-9-8-9 0-11.414-9.586-20-21-20-10.102 0-19.2 6.423-21 16h-2C5.292 19 1 24.292 1 30s4.292 10 10 10h44zm-31 5l-5 11m-5-11L9 56m25-11l-5 11m15-11l-5 11m15-11l-5 11m-32 3l-1 2m-9-2l-1 2m21-2l-1 2m11-2l-1 2m11-2l-1 2"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_hail_fullmoon">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M56 45c4.19 0 7-2.81 7-7 0-4.189-2.81-9-7-9 0-10.475-9.525-18-20-18-9.271 0-17.348 6.211-19 15h-2c-5.238 0-9 4.762-9 10s3.762 9 9 9h41z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M7.004 32.959a13.068 13.068 0 0 1-3.961-3.96A12.94 12.94 0 0 1 1 22C1 14.82 6.82 9 14 9c4.604 0 8.646 2.392 10.957 6.001M20 48l-4 9m14-9l-4 9m14-9l-4 9m14-9l-4 9m-31 3l-1 2m11-2l-1 2m11-2l-1 2m11-2l-1 2"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_hail_halfmoon">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M56 45c4.19 0 7-2.81 7-7 0-4.189-2.81-9-7-9 0-10.475-9.525-18-20-18-9.271 0-17.348 6.211-19 15h-2c-5.238 0-9 4.762-9 10s3.762 9 9 9h41z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M24.957 15.001C22.646 11.392 18.604 9 14 9c-.826 0-1.631.085-2.414.233A8.945 8.945 0 0 1 13 14.063a9 9 0 0 1-9 9 8.97 8.97 0 0 1-2.98-.516 12.936 12.936 0 0 0 2.023 6.452 13.068 13.068 0 0 0 3.961 3.96M20 48l-4 9m14-9l-4 9m14-9l-4 9m14-9l-4 9m-31 3l-1 2m11-2l-1 2m11-2l-1 2m11-2l-1 2"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_hail_sun">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M56 45c4.19 0 7-2.81 7-7 0-4.189-2.81-9-7-9 0-10.475-9.525-18-20-18-9.271 0-17.348 6.211-19 15h-2c-5.238 0-9 4.762-9 10s3.762 9 9 9h41z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M29.999 11.752A12.945 12.945 0 0 0 22 9C14.82 9 9 14.82 9 22c0 2.577.707 3.979 2 6m-5-6H0M22 6V0M10 10L4 4m16 44l-4 9m14-9l-4 9m14-9l-4 9m14-9l-4 9m-31 3l-1 2m11-2l-1 2m11-2l-1 2m11-2l-1 2"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_last_quarter">
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="31"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 59h15m-15-6h23m-23-6h27m-27-6h30m-30-6h31M32 1v62m0-34h31m-31-6h30m-30-6h27m-27-6h23M32 5h15"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_leo">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M22.649 33.597c-8.337-4.888-11.134-15.608-6.247-23.946C21.29 1.312 32.012-1.485 40.35 3.403c8.337 4.888 11.134 15.608 6.247 23.946C46.597 27.35 36 46 36 54"></path>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="19" cy="42" r="9"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M53.064 58A9 9 0 0 1 36 54"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_libra">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M41.667 38.002a16.087 16.087 0 0 0 6.444-12.891C48.111 16.213 40.897 9 32 9s-16.111 7.213-16.111 16.111c0 5.27 2.53 9.948 6.442 12.889M0 38h23m18 0h23M0 55h64"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_lightning">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M40 1L17 37h14l-7 26 26-36H36z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_mistyrain">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M55 40c4.565 0 8-3.435 8-8 0-4.565-3.435-9-8-9 0-11.414-9.586-20-21-20-10.102 0-19.2 6.423-21 16h-2C5.292 19 1 24.292 1 30s4.292 10 10 10h44zM17 59l-1 2m-9-2l-1 2m21-2l-1 2m11-2l-1 2m11-2l-1 2m-22-9l-1 2m-9-2l-1 2m21-2l-1 2m11-2l-1 2m11-2l-1 2M19 44l-1 2m-9-2l-1 2m21-2l-1 2m11-2l-1 2m11-2l-1 2"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_mistyrain_fullmoon">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M56 45c4.19 0 7-2.81 7-7 0-4.189-2.81-9-7-9 0-10.475-9.525-18-20-18-9.271 0-17.348 6.211-19 15h-2c-5.238 0-9 4.762-9 10s3.762 9 9 9h41z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M7.004 32.959a13.068 13.068 0 0 1-3.961-3.96A12.94 12.94 0 0 1 1 22C1 14.82 6.82 9 14 9c4.604 0 8.646 2.392 10.957 6.001M15 60l-1 2m11-2l-1 2m11-2l-1 2m11-2l-1 2M19 48l-1 2m11-2l-1 2m11-2l-1 2m11-2l-1 2m-37 4l-1 2m11-2l-1 2m11-2l-1 2m11-2l-1 2"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_mistyrain_halfmoon">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M56 45c4.19 0 7-2.81 7-7 0-4.189-2.81-9-7-9 0-10.475-9.525-18-20-18-9.271 0-17.348 6.211-19 15h-2c-5.238 0-9 4.762-9 10s3.762 9 9 9h41z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M24.957 15.001C22.646 11.392 18.604 9 14 9c-.826 0-1.631.085-2.414.233A8.945 8.945 0 0 1 13 14.063a9 9 0 0 1-9 9 8.97 8.97 0 0 1-2.98-.516 12.936 12.936 0 0 0 2.023 6.452 13.068 13.068 0 0 0 3.961 3.96M15 60l-1 2m11-2l-1 2m11-2l-1 2m11-2l-1 2M19 48l-1 2m11-2l-1 2m11-2l-1 2m11-2l-1 2m-37 4l-1 2m11-2l-1 2m11-2l-1 2m11-2l-1 2"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_mistyrain_sun">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M56 45c4.19 0 7-2.81 7-7 0-4.189-2.81-9-7-9 0-10.475-9.525-18-20-18-9.271 0-17.348 6.211-19 15h-2c-5.238 0-9 4.762-9 10s3.762 9 9 9h41z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M29.999 11.752A12.945 12.945 0 0 0 22 9C14.82 9 9 14.82 9 22c0 2.577.707 3.979 2 6m-5-6H0M22 6V0M10 10L4 4m11 56l-1 2m11-2l-1 2m11-2l-1 2m11-2l-1 2M19 48l-1 2m11-2l-1 2m11-2l-1 2m11-2l-1 2m-37 4l-1 2m11-2l-1 2m11-2l-1 2m11-2l-1 2"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_moon">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M6 52c14.359 0 26-11.641 26-26 0-9.994-6.729-18.648-15-23 3.396-1.277 8.158-2 12-2 17.121 0 31 13.879 31 31S46.121 63 29 63c-9.505 0-18.313-4.265-24-11 .23.006.768 0 1 0z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_moondown_full">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M0 47h64"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M25 53l7 7 7-7"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M48.159 47A18.913 18.913 0 0 0 51 37c0-10.493-8.506-19-19-19s-19 8.507-19 19c0 3.668 1.04 7.094 2.841 9.998"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_moondown_half">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M0 47h64"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M25 53l7 7 7-7"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M48.158 47A18.905 18.905 0 0 0 51 37c0-10.493-8.506-19-19-19-.059 0-.115.008-.175.009A13.44 13.44 0 0 1 33 23.5C33 30.956 26.956 37 19.5 37c-2.323 0-4.51-.588-6.418-1.621A19.287 19.287 0 0 0 13 37a18.9 18.9 0 0 0 2.841 9.998"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_moonset_full">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M0 47h64"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M39 60l-7-7-7 7"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M48.159 47A18.913 18.913 0 0 0 51 37c0-10.493-8.506-19-19-19s-19 8.507-19 19c0 3.668 1.04 7.094 2.841 9.998"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_moonset_half">
+    <path fill="none" stroke="#010101" stroke-width="2" stroke-miterlimit="10" d="M0 47h64"></path>
+    <path fill="none" stroke="#010101" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M25 53l7 7 7-7"></path>
+    <path fill="none" stroke="#010101" stroke-width="2" stroke-miterlimit="10" d="M48.158 47A18.905 18.905 0 0 0 51 37c0-10.493-8.506-19-19-19-.059 0-.115.008-.175.009A13.44 13.44 0 0 1 33 23.5C33 30.956 26.956 37 19.5 37c-2.323 0-4.51-.588-6.418-1.621A19.287 19.287 0 0 0 13 37a18.9 18.9 0 0 0 2.841 9.998"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_move2">
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="31"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 5H17m15 6H9m23 6H5m27 6H2m30 6H1m31 34V1m0 34H1m31 6H2m30 6H5m27 6H9m23 6H17"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_newmoon">
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="31"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M47 5H17m38 6H9m50 6H5m57 6H2m61 6H1m62 6H1m61 6H2m57 6H5m50 6H9m38 6H17"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_pisces">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M54 0S44 16 44 32s10 32 10 32m-44 0s10-16 10-32S10 0 10 0M7 32h50"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_rain">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M55 40c4.565 0 8-3.435 8-8 0-4.565-3.435-9-8-9 0-11.414-9.586-20-21-20-10.102 0-19.2 6.423-21 16h-2C5.292 19 1 24.292 1 30s4.292 10 10 10h44zm-33 6v14M12 46v14m20-14v14m10-14v14m10-14v14"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_rain_fullmoon">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M56 45c4.19 0 7-2.81 7-7 0-4.189-2.81-9-7-9 0-10.475-9.525-18-20-18-9.271 0-17.348 6.211-19 15h-2c-5.238 0-9 4.762-9 10s3.762 9 9 9h41z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M7.004 32.959a13.068 13.068 0 0 1-3.961-3.96A12.94 12.94 0 0 1 1 22C1 14.82 6.82 9 14 9c4.604 0 8.646 2.392 10.957 6.001M20 48v14m10-14v14m10-14v14m10-14v14"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_rain_halfmoon">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M56 45c4.19 0 7-2.81 7-7 0-4.189-2.81-9-7-9 0-10.475-9.525-18-20-18-9.271 0-17.348 6.211-19 15h-2c-5.238 0-9 4.762-9 10s3.762 9 9 9h41z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M24.957 15.001C22.646 11.392 18.604 9 14 9c-.826 0-1.631.085-2.414.233A8.945 8.945 0 0 1 13 14.063a9 9 0 0 1-9 9 8.97 8.97 0 0 1-2.98-.516 12.936 12.936 0 0 0 2.023 6.452 13.068 13.068 0 0 0 3.961 3.96M20 48v14m10-14v14m10-14v14m10-14v14"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_rain_sun">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M56 45c4.19 0 7-2.81 7-7 0-4.189-2.81-9-7-9 0-10.475-9.525-18-20-18-9.271 0-17.348 6.211-19 15h-2c-5.238 0-9 4.762-9 10s3.762 9 9 9h41z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M29.999 11.752A12.945 12.945 0 0 0 22 9C14.82 9 9 14.82 9 22c0 2.577.707 3.979 2 6m-5-6H0M22 6V0M10 10L4 4m16 44v14m10-14v14m10-14v14m10-14v14"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_sagittarius">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M63 1L0 64M36 1h27v27M1 28l35 35"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_scorpio">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M30 52V12s0-11 8-11 8 11 8 11v40s0 6 6 6h5m-43-6V12s.083-11 8-11 8 11 8 11m-16 0S14 2 6 2"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M52 53l5 5-5 5"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_snow">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M55 40c4.565 0 8-3.435 8-8 0-4.565-3.435-9-8-9 0-11.414-9.586-20-21-20-10.102 0-19.2 6.423-21 16h-2C5.292 19 1 24.292 1 30s4.292 10 10 10h44zm-33 3v5m0 4v5m5-12l-3 3m-4 4l-3 3m10 0l-3-3m-4-4l-3-3m12 5h-5m-4 0h-5m27-2v5m0 4v5m5-12l-3 3m-4 4l-3 3m10 0l-3-3m-4-4l-3-3m12 5h-5m-4 0h-5"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_snow_fullmoon">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M56 45c4.19 0 7-2.81 7-7 0-4.189-2.81-9-7-9 0-10.475-9.525-18-20-18-9.271 0-17.348 6.211-19 15h-2c-5.238 0-9 4.762-9 10s3.762 9 9 9h41z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M7.004 32.959a13.068 13.068 0 0 1-3.961-3.96A12.94 12.94 0 0 1 1 22C1 14.82 6.82 9 14 9c4.604 0 8.646 2.392 10.957 6.001M24 48v4m0 4v4m4-10l-2 2m-4 4l-2 2m8 0l-2-2m-4-4l-2-2m10 4h-4m-4 0h-4m26-4v4m0 4v4m4-10l-2 2m-4 4l-2 2m8 0l-2-2m-4-4l-2-2m10 4h-4m-4 0h-4"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_snow_halfmoon">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M56 45c4.19 0 7-2.81 7-7 0-4.189-2.81-9-7-9 0-10.475-9.525-18-20-18-9.271 0-17.348 6.211-19 15h-2c-5.238 0-9 4.762-9 10s3.762 9 9 9h41z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M24.957 15.001C22.646 11.392 18.604 9 14 9c-.826 0-1.631.085-2.414.233A8.945 8.945 0 0 1 13 14.063a9 9 0 0 1-9 9 8.97 8.97 0 0 1-2.98-.516 12.936 12.936 0 0 0 2.023 6.452 13.068 13.068 0 0 0 3.961 3.96M24 48v4m0 4v4m4-10l-2 2m-4 4l-2 2m8 0l-2-2m-4-4l-2-2m10 4h-4m-4 0h-4m26-4v4m0 4v4m4-10l-2 2m-4 4l-2 2m8 0l-2-2m-4-4l-2-2m10 4h-4m-4 0h-4"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_snow_sun">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M56 45c4.19 0 7-2.81 7-7 0-4.189-2.81-9-7-9 0-10.475-9.525-18-20-18-9.271 0-17.348 6.211-19 15h-2c-5.238 0-9 4.762-9 10s3.762 9 9 9h41z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M29.999 11.752A12.945 12.945 0 0 0 22 9C14.82 9 9 14.82 9 22c0 2.577.707 3.979 2 6m-5-6H0M22 6V0M10 10L4 4m20 44v4m0 4v4m4-10l-2 2m-4 4l-2 2m8 0l-2-2m-4-4l-2-2m10 4h-4m-4 0h-4m26-4v4m0 4v4m4-10l-2 2m-4 4l-2 2m8 0l-2-2m-4-4l-2-2m10 4h-4m-4 0h-4"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_snowflake">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 24l8 8-8 8m62 0l-8-8 8-8M24 63l8-8 8 8m0-62l-8 8-8-8M5 49h10v10m44-44H49V5M38 26l11-11M15 49l11-11M15 5v10H5m44 44V49h10M38 38l11 11M15 15l11 11m14 6h15M9 32h15m8 8v15m0-46v15"></path>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="8"></circle>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_star">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 47L12 62l8-24L2 24h22l8-23 8 23h22L44 38l8 24z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_storm_fullmoon">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M56 45c4.19 0 7-2.81 7-7 0-4.189-2.81-9-7-9 0-10.475-9.525-18-20-18-9.271 0-17.348 6.211-19 15h-2c-5.238 0-9 4.762-9 10s3.762 9 9 9h41z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M7.004 32.959a13.068 13.068 0 0 1-3.961-3.96A12.94 12.94 0 0 1 1 22C1 14.82 6.82 9 14 9c4.604 0 8.646 2.392 10.957 6.001M32 48l-3 7h5l-4 7m12-14l-3 7h5l-4 7M22 48l-3 7h5l-4 7"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_storm_halfmoon">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M56 45c4.19 0 7-2.81 7-7 0-4.189-2.81-9-7-9 0-10.475-9.525-18-20-18-9.271 0-17.348 6.211-19 15h-2c-5.238 0-9 4.762-9 10s3.762 9 9 9h41z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M24.957 15.001C22.646 11.392 18.604 9 14 9c-.826 0-1.631.085-2.414.233A8.945 8.945 0 0 1 13 14.063a9 9 0 0 1-9 9 8.97 8.97 0 0 1-2.98-.516 12.936 12.936 0 0 0 2.023 6.452 13.068 13.068 0 0 0 3.961 3.96M32 48l-3 7h5l-4 7m12-14l-3 7h5l-4 7M22 48l-3 7h5l-4 7"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_storm_sun">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M56 45c4.19 0 7-2.81 7-7 0-4.189-2.81-9-7-9 0-10.475-9.525-18-20-18-9.271 0-17.348 6.211-19 15h-2c-5.238 0-9 4.762-9 10s3.762 9 9 9h41z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M29.999 11.752A12.945 12.945 0 0 0 22 9C14.82 9 9 14.82 9 22c0 2.577.707 3.979 2 6m-5-6H0M22 6V0M10 10L4 4m28 44l-3 7h5l-4 7m12-14l-3 7h5l-4 7M22 48l-3 7h5l-4 7"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_storm-11">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M55 40c4.565 0 8-3.435 8-8 0-4.565-3.435-9-8-9 0-11.414-9.586-20-21-20-10.102 0-19.2 6.423-21 16h-2C5.292 19 1 24.292 1 30s4.292 10 10 10h44zm-32 6l-8 14m-2-14L5 60m28-14l-8 14m18-14l-8 14m18-14l-8 14"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_storm-32">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M55 40c4.565 0 8-3.435 8-8 0-4.565-3.435-9-8-9 0-11.414-9.586-20-21-20-10.102 0-19.2 6.423-21 16h-2C5.292 19 1 24.292 1 30s4.292 10 10 10h44zm-23 6l-3 7h4l-4 7m13-14l-3 7h4l-4 7M22 46l-3 7h4l-4 7"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_sun">
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <circle cx="32" cy="32" r="16"></circle>
+      <path d="M32 10V0m0 64V54m22-22h10M0 32h10m38-16l5-5M11 53l5-5m32 0l5 5M11 11l5 5"></path>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_sundown">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M0 47h64M10 37H0m64 0H54M32 15V4M14 23l-8-8m44 8l8-8"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M25 53l7 7 7-7"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M48.159 47A18.913 18.913 0 0 0 51 37c0-10.493-8.506-19-19-19s-19 8.507-19 19c0 3.668 1.04 7.094 2.841 9.998"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_sunset">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M0 47h64M10 37H0m64 0H54M32 15V4M14 23l-8-8m44 8l8-8"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M39 60l-7-7-7 7"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M48.159 47A18.913 18.913 0 0 0 51 37c0-10.493-8.506-19-19-19s-19 8.507-19 19c0 3.668 1.04 7.094 2.841 9.998"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_taurus">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M56 45c4.19 0 7-2.81 7-7 0-4.189-2.81-9-7-9 0-10.475-9.525-18-20-18-9.271 0-17.348 6.211-19 15h-2c-5.238 0-9 4.762-9 10s3.762 9 9 9h41z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M24.957 15.001C22.646 11.392 18.604 9 14 9c-.826 0-1.631.085-2.414.233A8.945 8.945 0 0 1 13 14.063a9 9 0 0 1-9 9 8.97 8.97 0 0 1-2.98-.516 12.936 12.936 0 0 0 2.023 6.452 13.068 13.068 0 0 0 3.961 3.96M32 48l-3 7h4l-4 7m-6-14l-8 14m32-14l-8 14"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_tempest">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M56 50c4.19 0 7-2.81 7-7 0-4.189-2.81-9-7-9 0-10.475-9.525-18-20-18-9.271 0-17.348 6.211-19 15h-2c-5.238 0-9 4.762-9 10s3.762 9 9 9h41z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M7.004 37.959a13.068 13.068 0 0 1-3.961-3.96A12.94 12.94 0 0 1 1 27c0-7.18 5.82-13 13-13 4.604 0 8.646 2.392 10.957 6.001"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_tempest_fullmoon">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M56 45c4.19 0 7-2.81 7-7 0-4.189-2.81-9-7-9 0-10.475-9.525-18-20-18-9.271 0-17.348 6.211-19 15h-2c-5.238 0-9 4.762-9 10s3.762 9 9 9h41z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M7.004 32.959a13.068 13.068 0 0 1-3.961-3.96A12.94 12.94 0 0 1 1 22C1 14.82 6.82 9 14 9c4.604 0 8.646 2.392 10.957 6.001M32 48l-3 7h4l-4 7m-6-14l-8 14m32-14l-8 14"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_tempest_halfmoon">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M55 40c4.565 0 8-3.435 8-8 0-4.565-3.435-9-8-9 0-11.414-9.586-20-21-20-10.102 0-19.2 6.423-21 16h-2C5.292 19 1 24.292 1 30s4.292 10 10 10h44zm-23 6l-3 7h4l-4 7m18-14l-8 14M22 46l-8 14"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_tempest_sun">
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="43" r="18"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M0 3c14 0 15 12 15 12s0 10 17 10M64 3C50 3 49 15 49 15s0 10-17 10"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_variable_fullmoon">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M56 45c4.19 0 7-2.81 7-7 0-4.189-2.81-9-7-9 0-10.475-9.525-18-20-18-9.271 0-17.348 6.211-19 15h-2c-5.238 0-9 4.762-9 10s3.762 9 9 9h41z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M29.999 11.752A12.945 12.945 0 0 0 22 9C14.82 9 9 14.82 9 22c0 2.577.707 3.979 2 6m-5-6H0M22 6V0M10 10L4 4m28 44l-3 7h4l-4 7m-6-14l-8 14m32-14l-8 14"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_variable_halfmoon">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M56 50c4.19 0 7-2.81 7-7 0-4.189-2.81-9-7-9 0-10.475-9.525-18-20-18-9.271 0-17.348 6.211-19 15h-2c-5.238 0-9 4.762-9 10s3.762 9 9 9h41z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M24.957 20.001C22.646 16.392 18.604 14 14 14c-.826 0-1.631.085-2.414.233A8.945 8.945 0 0 1 13 19.063a9 9 0 0 1-9 9 8.97 8.97 0 0 1-2.98-.516 12.936 12.936 0 0 0 2.023 6.452 13.068 13.068 0 0 0 3.961 3.96"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_variable_sun">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M56 50c4.19 0 7-2.81 7-7 0-4.189-2.81-9-7-9 0-10.475-9.525-18-20-18-9.271 0-17.348 6.211-19 15h-2c-5.238 0-9 4.762-9 10s3.762 9 9 9h41z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M29.999 16.752A12.945 12.945 0 0 0 22 14c-7.18 0-13 5.82-13 13 0 2.577.707 3.979 2 6m-5-6H0m22-16V5M10 15L4 9"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_virgo">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M54 64s-6-5-6-12V12s0-11-8-11-8 11-8 11v40m-16 0V12s.083-11 8-11 8 11 8 11m-16 0S16 2 8 2"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M48 24s0-14 6-14 6 14 6 14-1 34-27 34"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_waning_cresent">
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32.002" cy="31.999" r="31"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M41.002 61.999c-13.242-3.528-22-15.646-22-30 0-14.355 8.756-26.473 22-30M34 5h13m-20 6h28m-33 6h37m-39 6h42m-43 6h44m-44 6h44m-43 6h42m-39 6h36m-32 6h28m-21 6h13"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_waning_gibbous">
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="31"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M23 2c13.242 3.528 22 15.646 22 30 0 14.355-8.756 26.473-22 30m7-3h17m-10-6h18m-13-6h17m-15-6h18m-17-6h18m-18-6h18m-19-6h18m-21-6h18m-22-6h18M30 5h17"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_waxing_cresent">
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="31"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M23 2c13.243 3.528 22 15.646 22 30 0 14.355-8.756 26.473-22 30m7-3H17m20-6H9m33-6H5m39-6H2m43-6H1m44-6H1m43-6H2m39-6H5m32-6H9m21-6H17"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_waxing_gibbous">
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="31"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M41 62c-13.243-3.528-22-15.646-22-30 0-14.355 8.756-26.473 22-30m-7 3H17m10 6H9m13 6H5m15 6H2m17 6H1m18 6H1m19 6H2m21 6H5m22 6H9m25 6H17"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_wind">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M55 40c4.565 0 8-3.435 8-8 0-4.565-3.435-9-8-9 0-11.414-9.586-20-21-20-10.102 0-19.2 6.423-21 16h-2C5.292 19 1 24.292 1 30s4.292 10 10 10m16 18a5 5 0 1 0 5-5H2"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M40 42a5 5 0 1 1 5 5H4"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_wind_E">
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="31"></circle>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="4"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 44c6.628 0 25-12 25-12S38.628 20 32 20s-12 5.373-12 12 5.372 12 12 12z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_wind_fullmoon">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M7.004 32.959a13.068 13.068 0 0 1-3.961-3.96A12.94 12.94 0 0 1 1 22C1 14.82 6.82 9 14 9c4.604 0 8.646 2.392 10.957 6.001"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M56 45c4.19 0 7-2.81 7-7 0-4.189-2.81-9-7-9 0-10.475-9.525-18-20-18-9.271 0-17.348 6.211-19 15h-2c-5.238 0-9 4.762-9 10s3.762 9 9 9m12 13a5 5 0 1 0 5-5H2"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M40 44a5 5 0 1 1 5 5H4"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_wind_halfmoon">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M24.957 15.001C22.646 11.392 18.604 9 14 9c-.826 0-1.631.085-2.414.233A8.945 8.945 0 0 1 13 14.063a9 9 0 0 1-9 9 8.97 8.97 0 0 1-2.98-.516 12.936 12.936 0 0 0 2.023 6.452 13.068 13.068 0 0 0 3.961 3.96"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M56 45c4.19 0 7-2.81 7-7 0-4.189-2.81-9-7-9 0-10.475-9.525-18-20-18-9.271 0-17.348 6.211-19 15h-2c-5.238 0-9 4.762-9 10s3.762 9 9 9m12 13a5 5 0 1 0 5-5H2"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M40 44a5 5 0 1 1 5 5H4"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_wind_N">
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="31"></circle>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="4"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M44 32c0-6.628-12-25-12-25S20 25.372 20 32s5.373 12 12 12 12-5.372 12-12z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_wind_NE">
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="31"></circle>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="4"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M40.485 40.484C45.172 35.798 49 15 49 15s-20.799 3.827-25.485 8.514c-4.687 4.688-4.686 12.285 0 16.971 4.685 4.686 12.284 4.687 16.97-.001z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_wind_NW">
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="31"></circle>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="4"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M40.484 23.514C35.798 18.828 15 15 15 15s3.827 20.799 8.514 25.484c4.688 4.688 12.285 4.686 16.971 0 4.686-4.685 4.687-12.283-.001-16.97z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_wind_S">
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="31"></circle>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="4"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M20 32c0 6.628 12 25 12 25s12-18.372 12-25-5.373-12-12-12-12 5.372-12 12z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_wind_SE">
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="31.999" r="31"></circle>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="31.999" r="4"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M23.515 40.484c4.687 4.687 25.484 8.515 25.484 8.515S45.172 28.2 40.485 23.514c-4.688-4.687-12.285-4.686-16.971 0-4.686 4.685-4.687 12.284.001 16.97z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_wind_sun">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M56 45c4.19 0 7-2.81 7-7 0-4.189-2.81-9-7-9 0-10.475-9.525-18-20-18-9.271 0-17.348 6.211-19 15h-2c-5.238 0-9 4.762-9 10s3.762 9 9 9"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M29.999 11.752A12.945 12.945 0 0 0 22 9C14.82 9 9 14.82 9 22c0 2.577.707 3.979 2 6m-5-6H0M22 6V0M10 10L4 4m23 54a5 5 0 1 0 5-5H2m38-9a5 5 0 1 1 5 5H4"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_wind_SW">
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="31"></circle>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="4"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M23.515 23.515C18.828 28.201 15 48.999 15 48.999s20.799-3.827 25.485-8.514c4.687-4.688 4.686-12.285 0-16.971-4.685-4.686-12.284-4.687-16.97.001z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_wind_W">
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="31.999" cy="31.999" r="31"></circle>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="31.999" cy="31.999" r="4"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M31.999 19.999c-6.628 0-25 12-25 12s18.372 12 25 12 12-5.373 12-12-5.372-12-12-12z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_windgust">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M44 40a7 7 0 1 0 7-7H0m49-14a7 7 0 1 1 7 7H0"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M27 45a5 5 0 1 0 5-5H0"></path>
+  </symbol>
+</svg>

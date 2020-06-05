@@ -1,0 +1,25 @@
+.footer {
+    font-size: 1.6rem;
+    text-align: center;
+    opacity: .85;
+    padding: 2rem 0;
+    font-weight: 400;
+    height: max-content;
+
+    &__link {
+        font-family: 'Raleway', sans-serif;
+        text-decoration: none;
+        color: currentColor;
+        border-bottom: 1px solid rgba($color-text, .3);
+        transition: all .3s ease;
+        display: inline-block;
+
+        &:hover {
+            transform: translateY(-.5rem);
+        }
+
+        &:active {
+            transform: translate(0);
+        }
+    }
+}

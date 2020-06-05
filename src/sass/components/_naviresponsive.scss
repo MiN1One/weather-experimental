@@ -1,0 +1,31 @@
+.navigation {
+
+    &__responsive {
+        width: 100%;
+        display: none;
+        justify-content: space-between;
+        position: relative;
+        align-items: center;
+        padding: 1.5rem 0;
+        border-bottom: .1rem solid rgba($color-grey-dark, .4);
+        z-index: 9999;
+        
+        @include respond(815) {
+            display: flex;
+        }
+    }
+
+    &__left--res {
+
+        @include respond(815) {
+            display: flex;
+        }
+    }
+
+    &__right--res {
+
+        @include respond(815) {
+            display: flex;
+        }
+    }
+}

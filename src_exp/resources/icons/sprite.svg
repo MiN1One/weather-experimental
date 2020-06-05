@@ -1,0 +1,2059 @@
+<svg width="0" height="0" class="hidden">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_anticlockwise">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 1c17.121 0 31 13.879 31 31S49.121 63 32 63m0-62C14.879 1 1 14.879 1 32a30.857 30.857 0 0 0 5.759 18l5.62 5.621"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M13 45v11H2"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_anticlockwise_dashed">
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M32 1c.672 0 1.339.021 2 .063"></path>
+      <path stroke-dasharray="4.0593,2.0296" d="M36.021 1.258C51.242 3.229 63 16.241 63 32c0 16.104-12.279 29.34-27.986 30.855"></path>
+      <path d="M34 62.937A31.54 31.54 0 0 1 32 63"></path>
+    </g>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 1C14.879 1 1 14.879 1 32a30.857 30.857 0 0 0 5.759 18l5.62 5.621"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M13 45v11H2"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_button_down">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M48 17c0-8.837-7.163-16-16-16S16 8.163 16 17v30c0 8.837 7.163 16 16 16s16-7.163 16-16V17z"></path>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="47" r="12"></circle>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_button_off">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M47 48c8.837 0 16-7.163 16-16s-7.163-16-16-16H17C8.163 16 1 23.163 1 32s7.163 16 16 16h30z"></path>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="17" cy="32" r="12"></circle>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_button_on">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M47 48c8.837 0 16-7.163 16-16s-7.163-16-16-16H17C8.163 16 1 23.163 1 32s7.163 16 16 16h30z"></path>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="47" cy="32" r="12"></circle>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_button_up">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M48 17c0-8.837-7.163-16-16-16S16 8.163 16 17v30c0 8.837 7.163 16 16 16s16-7.163 16-16V17z"></path>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="17" r="12"></circle>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_check">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M13 33l12 12 24-24"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_circle_check">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M13 33l12 12 24-24"></path>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="30.999"></circle>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_circle_down">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M15 24l17 17 17-17"></path>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="30.999"></circle>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_circle_downleft">
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="30.999"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M47 41H23V17"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_circle_downright">
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="30.999"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M41 17v24H17"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_circle_left">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M27 15l17 17-17 17"></path>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="30.999"></circle>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_circle_minus">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M14 31h36"></path>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="30.999"></circle>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_circle_plus">
+    <path d="M32 50V14M14 32h36" fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10"></path>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="30.999"></circle>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_circle_remove">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M18.947 17.153l26.098 25.903m-26 .097l25.902-26.097"></path>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="30.999"></circle>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_circle_right">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M37 15L20 32l17 17"></path>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="30.999"></circle>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_circle_up">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M15 40l17-17 17 17"></path>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="30.999"></circle>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_circle_upleft">
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="30.999"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M23 47V23h24"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_circle_upright">
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="30.999"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M17 23h24v24"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_clockwise">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 1C14.879 1 1 14.879 1 32s13.879 31 31 31m0-62c17.121 0 31 13.879 31 31a30.857 30.857 0 0 1-5.759 18l-5.62 5.621"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M51 45v11h11"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_clockwise_dashed">
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M32 1c-.672 0-1.339.021-2 .063"></path>
+      <path stroke-dasharray="4.0593,2.0296" d="M27.979 1.258C12.758 3.229 1 16.241 1 32c0 16.104 12.279 29.34 27.986 30.855"></path>
+      <path d="M30 62.937A31.54 31.54 0 0 0 32 63"></path>
+    </g>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 1c17.121 0 31 13.879 31 31a30.857 30.857 0 0 1-5.759 18l-5.62 5.621"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M51 45v11h11"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_compress">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M47 25l-7 7 7 7m-30 0l7-7-7-7"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M24 32H0m64 0H40"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M25 17l7 7 7-7m0 30l-7-7-7 7"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 40v24m0-64v24"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_deny">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M53.919 10.08c12.108 12.106 12.108 31.733 0 43.84-12.105 12.107-31.732 12.107-43.838 0-12.108-12.106-12.108-31.733 0-43.84 12.106-12.107 31.732-12.107 43.838 0zm-43.839 0l43.84 43.84"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_diagonal">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M63 12V1H52M1 52v11h11M1 63L63 1"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_diagonal2">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M52 63h11V52M12 1H1v11M1 1l62 62"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_down">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M15 24l17 17 17-17"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_down_double-34">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M48.936 31l-17 17-17-17"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M48.936 16l-17 17-17-17"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_downleft">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M47 41H23V17"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_downright">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M41 17v24H17"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_drag_down">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 31v32"></path>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="16" r="15"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M23 54l9 9 9-9"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_drag_down_dashed">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="4,2" d="M32 31v32"></path>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="16" r="15"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M23 54l9 9 9-9"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_drag_horiz">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M24 0v64m8-64v64m8-64v64"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_drag_left">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M33 32H1"></path>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="48" cy="32" r="15"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M10 23l-9 9 9 9"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_drag_left_dashed">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="4,2" d="M33 32H1"></path>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="48" cy="32" r="15"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M10 23l-9 9 9 9"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_drag_right">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M31 32h32"></path>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="16" cy="32" r="15"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M54 41l9-9-9-9"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_drag_right_dashed">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="4,2" d="M31 32h32"></path>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="16" cy="32" r="15"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M54 41l9-9-9-9"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_drag_up">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 33V1"></path>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="48" r="15"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M41 10l-9-9-9 9"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_drag_up_dashed">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="4,2" d="M32 33V1"></path>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="48" r="15"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M41 10l-9-9-9 9"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_drag_vert">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M0 40h64M0 32h64M0 24h64"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_exclamation">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M53.92 10.081c12.107 12.105 12.107 31.732 0 43.838-12.106 12.108-31.734 12.108-43.839 0-12.107-12.105-12.107-31.732 0-43.838 12.105-12.108 31.732-12.108 43.839 0z"></path>
+    <path stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 17v22m0 4v4"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_expand">
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path stroke-linejoin="bevel" d="M1 12V1h11m0 62H1V52m62 0v11H52m0-62h11v11"></path>
+      <path d="M2 2l20 20m20 20l20 20M2 62l20-20m20-20L62 2"></path>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_expand_diagonal1">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M13 1l50 50M1 13l50.166 50.166"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M63 12V1H52M1 52v11h11M1 63l25-25m12-12L63 1"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_expand_horizontal1">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M21 0v64m22 0V0"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M8 25l-7 7 7 7"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 32h20"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M56 39l7-7-7-7"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M63 32H43"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_expand_vertical1">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M64 21H0m0 22h64"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M39 8l-7-7-7 7"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 1v20"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M25 56l7 7 7-7"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 63V43"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_fit_horizontal">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M16 25l-7 7 7 7m32 0l7-7-7-7"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M55 32H9M63 0v64M1 0v64"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_fit_vertical">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M39 16l-7-7-7 7m0 32l7 7 7-7"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 55V9M0 1h64M0 63h64"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_glide">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M45.968 48.968l-14.001 14L18 49m0-34L32.032.968l14 14"></path>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" cx="31.968" cy="31.968" r="5"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M49 18l14 14-14 14m-33.968-.032L1 31.935l13.968-13.967"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_glide_horizontal">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M46 15l17 17-17 17m-28-.065l-17-17 17-17"></path>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" cx="32" cy="32" r="5"></circle>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_glide_vertical">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M48.968 45.968l-17.001 17-16.999-17.001m.064-28l17-16.999 17 17"></path>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" cx="31.968" cy="31.968" r="5"></circle>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_hamburger 2">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M12 21h40M12 33h40M12 45h40"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_hamburger1">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M0 21h6m10 0h48M0 33h6m10 0h48M0 45h6m10 0h48"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_horizontal">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M8 25l-7 7 7 7m48 0l7-7-7-7"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M63 32H1"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_info">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M53.92 10.081c12.107 12.105 12.107 31.732 0 43.838-12.106 12.108-31.734 12.108-43.84 0-12.107-12.105-12.107-31.732 0-43.838 12.106-12.108 31.733-12.108 43.84 0z"></path>
+    <path stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 47V25m0-4v-4"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_keyboard_alt">
+    <path fill="none" stroke="#231F20" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M1 1h62v62H1z"></path>
+    <path fill="none" stroke="#231F20" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M6 24h12l12 18h28m0-18H30"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_keyboard_cmd-29">
+    <path fill="none" stroke="#231F20" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M1 1h62v62H1z"></path>
+    <path fill="none" stroke="#231F20" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M1 1h62v62H1z"></path>
+    <path fill="none" stroke="#231F20" stroke-width="2" stroke-miterlimit="10" d="M22 27c-2.762 0-5-2.238-5-5s2.238-5 5-5 5 2.238 5 5v20c0 2.762-2.238 5-5 5s-5-2.238-5-5 2.238-5 5-5h20c2.762 0 5 2.238 5 5s-2.238 5-5 5-5-2.238-5-5V22c0-2.762 2.238-5 5-5s5 2.238 5 5-2.238 5-5 5H22z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_keyboard_delete">
+    <path fill="none" stroke="#231F20" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M1 1h62v62H1z"></path>
+    <path fill="none" stroke="#231F20" stroke-width="2" stroke-miterlimit="10" d="M55 44H19L9 32l10-12h36zm-28-5l14-14m-14 0l14 14"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_keyboard_down-28">
+    <path fill="none" stroke="#231F20" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M1 1h62v62H1z"></path>
+    <path fill="none" stroke="#231F20" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M1 1h62v62H1z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M21 26l11 16 11-16z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_keyboard_left">
+    <path fill="none" stroke="#231F20" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M1 1h62v62H1z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M38 21L22 32l16 11z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_keyboard_return">
+    <path fill="none" stroke="#231F20" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M1 1h62v62H1z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M9 37h46V18H44"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M18 46l-9-9 9-9"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_keyboard_right">
+    <path fill="none" stroke="#231F20" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M1 1h62v62H1z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M26 21l16 11-16 11z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_keyboard_shift">
+    <path fill="none" stroke="#231F20" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M1 1h62v62H1z"></path>
+    <path fill="none" stroke="#231F20" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M1 1h62v62H1z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M17 36l15-18 15 18h-8l.001 10H25V36z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_keyboard_tab">
+    <path fill="none" stroke="#231F20" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M1 1h62v62H1z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M39 25l7 7-7 7"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M12 32h34m4-9v18"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_keyboard_up">
+    <path fill="none" stroke="#231F20" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M1 1h62v62H1z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M21 40l11-16 11 16z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_left">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M37 15L20 32l17 17"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_left_double-32">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M32.936 48.936l-17-17 17-17"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M47.936 48.936l-17-17 17-17"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_minus">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M14 31h36"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_move">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M56 39l7-7-7-7M8 25l-7 7 7 7"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 32h26m10 0h26"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M39 8l-7-7-7 7m0 48l7 7 7-7"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 63V37m0-10V1"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_move_bottom">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M25 44l7 7 7-7"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 51V5M0 59h64"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_move_left">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M20 25l-7 7 7 7"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M59 32H13M5 0v64"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_move_right">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M44 39l7-7-7-7"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M51 32H5M59 0v64"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_move_top">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M39 20l-7-7-7 7"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 59V13M0 5h64"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_move2">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M56 39l7-7-7-7M8 25l-7 7 7 7"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 32h31m0 0h31"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M39 8l-7-7-7 7m0 48l7 7 7-7"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 63V32m0 0V1"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_plus">
+    <path d="M32 50V14M14 32h36" fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_question">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M53.92 10.081c12.107 12.105 12.107 31.732 0 43.838-12.106 12.108-31.734 12.108-43.84 0-12.107-12.105-12.107-31.732 0-43.838 12.106-12.108 31.733-12.108 43.84 0z"></path>
+    <path stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M30 43v4"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M24 21c0-3 2-5 8-5 5 0 8 3 8 7s-6 7-6 7-4 2-4 8v1"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_remove">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M18.947 17.153l26.098 25.903m-26 .097l25.902-26.097"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_right">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M27 15l17 17-17 17"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_right_double-31">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M31 15l17 17-17 17"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M16 15l17 17-17 17"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_rotate">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M33 1c7.678 0 15.354 2.929 21.212 8.787C64.91 20.484 65.841 37.248 57.003 49l-6.001 6.002M31 63c-7.678 0-15.354-2.929-21.212-8.787C-.91 43.516-1.841 26.752 6.997 15l6.001-6.002"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M51 44v11h11M13 20V9H2"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_rotate_anti">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M31 1C23.322 1 15.646 3.929 9.788 9.787-.91 20.484-1.841 37.248 6.997 49l6.001 6.002M33 63c7.678 0 15.354-2.929 21.212-8.787C64.91 43.516 65.841 26.752 57.003 15l-6.001-6.002"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M13 44v11H2m49-35V9h11"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_rotate_anti_dashed">
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M31 1c-.667 0-1.333.022-1.998.066"></path>
+      <path stroke-dasharray="4.1705,2.0853" d="M26.929 1.275A29.87 29.87 0 0 0 9.788 9.787C-.91 20.484-1.841 37.248 6.997 49l3.846 3.847"></path>
+      <path d="M11.584 53.588l1.414 1.414"></path>
+    </g>
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M33 63c.667 0 1.333-.022 1.998-.066"></path>
+      <path stroke-dasharray="4.1705,2.0853" d="M37.071 62.725a29.861 29.861 0 0 0 17.141-8.512C64.91 43.516 65.841 26.752 57.003 15l-3.846-3.847"></path>
+      <path d="M52.416 10.412l-1.414-1.414"></path>
+    </g>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M13 44v11H2m49-35V9h11"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_rotate_dashed">
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M33 1c.666 0 1.333.022 1.998.066"></path>
+      <path stroke-dasharray="4.1705,2.0853" d="M37.071 1.276a29.866 29.866 0 0 1 17.141 8.511C64.91 20.484 65.841 37.248 57.003 49l-3.846 3.846"></path>
+      <path d="M52.416 53.588l-1.414 1.414"></path>
+    </g>
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M31 63c-.666 0-1.333-.022-1.998-.066"></path>
+      <path stroke-dasharray="4.1705,2.0853" d="M26.929 62.724a29.866 29.866 0 0 1-17.141-8.511C-.91 43.516-1.841 26.752 6.997 15l3.846-3.846"></path>
+      <path d="M11.584 10.412l1.414-1.414"></path>
+    </g>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M51 44v11h11M13 20V9H2"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_shrink">
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M1 63l22-22"></path>
+      <path stroke-linejoin="bevel" d="M12 41h11v11"></path>
+    </g>
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M63 63L41 41"></path>
+      <path stroke-linejoin="bevel" d="M41 52V41h11"></path>
+    </g>
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M63 1L41 23"></path>
+      <path stroke-linejoin="bevel" d="M52 23H41V12"></path>
+    </g>
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M1 1l22 22"></path>
+      <path stroke-linejoin="bevel" d="M23 12v11H12"></path>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_shrink_diagonal1">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M37 1l26 26M1 37l26 26"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M35 18v11h11M28.771 45.771v-11h-11"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M14 50l15-15m6-6l15.5-15.5"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_shrink_diagonal2">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M35 18v11h11M28.771 45.771v-11h-11"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 63l28-28m6-6L63 1"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_shrink_horizonal2">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M45 25l-7 7 7 7"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M38 32h26"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M19 39l7-7-7-7"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M26 32H0"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_shrink_horizontal1">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M5 0v64M59 0v64"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M45 25l-7 7 7 7"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M38 32h21"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M19 39l7-7-7-7"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M26 32H5"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_shrink_vertical1">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M64 5H0m64 54H0"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M25 19l7 7 7-7"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 26V5"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M39 45l-7-7-7 7"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 38v21"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_shrink_vertical2">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M25 19l7 7 7-7"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 26V0"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M39 45l-7-7-7 7"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 38v26"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_sign_down">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M15 45V1h34v44L31.999 63z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_sign_left">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M19 15h44v34H19L1 31.999z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_sign_right">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M45 49H1V15h44l18 17.001z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_sign_up">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M49 19v44H15V19L32.001 1z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_slide_down1">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M27 63V1h19"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M18 54l9 9 9-9"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_slide_down2">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M37 63V1H18"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M46 54l-9 9-9-9"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_slide_left1">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 27h62v19"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M10 18l-9 9 9 9"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_slide_left2">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 37h62V18"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M10 46l-9-9 9-9"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_slide_right1">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M63 27H1v19"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M54 18l9 9-9 9"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_slide_right2">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M63 37H1V18"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M54 46l9-9-9-9"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_slide_up1">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M37 1v62H18"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M46 10l-9-9-9 9"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_slide_up2">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M27 1v62h19"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M18 10l9-9 9 9"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_slim_down">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 0v63"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M41 54l-9 9-9-9"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_slim_down_dashed">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="4,2" d="M32 0v55"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M41 54l-9 9-9-9"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_slim_left">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M64 32H1"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M10 23l-9 9 9 9"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_slim_left_dashed">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="4,2" d="M64 32H1"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M10 23l-9 9 9 9"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_slim_right">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M0 32h63"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M54 41l9-9-9-9"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_slim_right_dashed">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="4,2" d="M0 32h63"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M54 41l9-9-9-9"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_slim_up">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 64V1"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M41 10l-9-9-9 9"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_slim_up_dashed">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="4,2" d="M32 64V2"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M41 10l-9-9-9 9"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_square_check">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M13 33l12 12 24-24"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 1h62v62H1z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_square_down">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M15 24l17 17 17-17"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 1h62v62H1z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_square_downleft">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M47 41H23V17"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 1h62v62H1z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_square_downright">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M41 17v24H17"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 1h62v62H1z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_square_left">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M37 15L20 32l17 17"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 1h62v62H1z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_square_minus">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M14 31h36M1 1h62v62H1z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_square_plus">
+    <path d="M32 50V14M14 32h36M1 1h62v62H1z" fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_square_remove">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M18.947 17.153l26.098 25.903m-26 .097l25.902-26.097M1 1h62v62H1z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_square_right">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M27 15l17 17-17 17"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 1h62v62H1z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_square_up">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M15 40l17-17 17 17"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 1h62v62H1z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_square_upleft">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M23 47V23h24"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 1h62v62H1z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_square_upright">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M17 23h24v24"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 1h62v62H1z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_squares">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 1h27v27H1zm35 0h27v27H36zM1 36h27v27H1zm35 0h27v27H36z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_stretch_diagonal1">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M63 12V1H52M1 52v11h11M1 63l25-25m12-12L63 1M24 24l16 16"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_stretch_diagonal2">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M1 12V1h11m51 51v11H52m11 0L38 38M26 26L1 1m39 23L24 40"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_stretch_diagonal3">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M63 12V1H52M1 52v11h11M1 63l31-31m0 0L63 1M1 1l62 62"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_stretch_diagonal4">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M1 12V1h11m51 51v11H52m11 0L32 32m0 0L1 1m62 0L1 63"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_stretch_horizontal1">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M55 40l8-8-8-8M9 24l-8 8 8 8"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M2 32h24m12 0h24M32 21v22"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_stretch_horizontal2">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M55 40l8-8-8-8M9 24l-8 8 8 8"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M2 32h30m0 0h30M32 0v64"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_stretch_vertical1">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M40 9l-8-8-8 8m0 46l8 8 8-8"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 62V38m0-12V2M21 32h22"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_stretch_vertical2">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M40 9l-8-8-8 8m0 46l8 8 8-8"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 62V32m0 0V2M0 32h64"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_switch_horizontal">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M54.083 51l9-9-9-9"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M63 42H9"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M10.083 13l-9 9 9 9"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 22h54"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_switch_vertical">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M51.083 10l-9-9-9 9"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M42.083 1L42 55"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M13.083 54l9 9 9-9"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M22.083 63L22 9"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_up">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M15 40l17-17 17 17"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_up_double">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M15 32.936l17-17 17 17"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M15 47.936l17-17 17 17"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_upright">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M17 23h24v24"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrows_vertical">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M39 8l-7-7-7 7m0 48l7 7 7-7"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 63V1"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_accelerator">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32.001.887C49.185.887 63.114 14.816 63.113 32 63.114 49.185 49.184 63.115 32 63.113 14.815 63.114.887 49.185.888 32.001.885 14.816 14.815.887 32.001.887z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M10 32a21.93 21.93 0 0 1 6.444-15.556c8.591-8.593 22.521-8.593 31.112 0A21.93 21.93 0 0 1 54 32m-30-6l6.333 7.333"></path>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="35" r="2"></circle>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_alarm">
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="26"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 20v12l8 4M21.995 56.005L15 63m34 0l-6.995-6.995M1 8l4-4 10 2L3 18zm58-4l4 4-2 10L49 6z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_anchor">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 13v50"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M19 50L9 47 6 57m39-7l10-3 4 10"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M54.752 47C51.555 56.301 42.576 63 32 63c-10.575 0-19.553-6.698-22.751-15.998M23 17h18"></path>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="7" r="6"></circle>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_anticlockwise">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 12v20l9 9M4 32h4m48 0h4M32 60v-4m0-48V4"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 63C14.879 63 1 49.121 1 32S14.879 1 32 1m0 62c17.121 0 31-13.879 31-31a30.857 30.857 0 0 0-5.759-18l-5.62-5.621"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M51 19V8h11"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_archive">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M5 41l6-40h42l6 40m-38 0c0 6.075 4.925 11 11 11s11-4.925 11-11h16v22H5V41h16z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_archive_full">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M5 41l6-40h42l6 40m-38 0c0 6.075 4.925 11 11 11s11-4.925 11-11h16v22H5V41h16zm-9-10h40M14 21h36M16 11h32"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_ban">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M53.919 10.08c12.108 12.106 12.108 31.733 0 43.84-12.105 12.107-31.732 12.107-43.838 0-12.108-12.106-12.108-31.733 0-43.84 12.106-12.107 31.732-12.107 43.838 0zm-43.839 0l43.84 43.84"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_battery_charge">
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M1 21h58v24H1zm58 6h4v12h-4"></path>
+      <path d="M5 25h50v16H5z"></path>
+    </g>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M22 33l7-3v6l7-3"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_battery_empty">
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M1 21h58v24H1zm58 6h4v12h-4"></path>
+      <path d="M18 41H5V25h9z"></path>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_battery_full">
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M1 21h58v24H1zm58 6h4v12h-4"></path>
+      <path d="M5 25h50v16H5z"></path>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_battery_half">
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M1 21h58v24H1zm58 6h4v12h-4"></path>
+      <path d="M33 41H5V25h24z"></path>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_bolt">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M40 1L17 37h14l-7 26 26-36H36z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_book">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M7 1h46v62H7zm8 62V2m5 13h28m-28 6h28"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_book_pen">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 1h46v62H1zm8 62V2m5 13h28m-28 6h28M63 3v50l-4 8-4-8V3zm-8 4h-4v10"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_book_pencil">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 1h46v62H1zm8 62V2m5 13h28m-28 6h28M55 1v53l4 8 4-8V1zm0 10h8"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_bookmark">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M18 1h28v61L32 48 18 62z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_calculator">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 1h62v62H1zm17 7v20m10-10H8m48 0H36M10 54l16-16m-16 0l16 16m10-11h20m-20 6h20"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_calendar">
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M46 10H18m-6 0H1v48h62V10H52"></path>
+      <path d="M12 6h6v8h-6zm34 0h6v8h-6zM10 24h10v10H10zm0 18h10v10H10zm34-18h10v10H44zm0 18h10v10H44zM27 24h10v10H27zm0 18h10v10H27z"></path>
+    </g>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 18h62"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_cards_diamonds">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M44 59L16 45 36 5l27 14z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M31.899 14.004L28 6 1 20l18 39 13-6.036M35 41l11-5-1-12-11 5zm3-32l-1 2M7 23l-1-2m37 32l-1 2"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_cards_hearts">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M44 59L16 45 36 5l27 14z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M31.899 14.004L28 6 1 20l18 39 13-6.036M38 9l-1 2M7 23l-1-2m37 32l-1 2"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M33 25c-2.848 5.281 3 15 3 15s11.151.28 14-5c1.18-2.188 1.377-5.718-1-7-2.188-1.18-5.82-1.188-7 1 1.18-2.188.188-4.82-2-6-2.376-1.282-5.819-.187-7 2z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_case">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 18h62v36H1zm0 12h62"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M27 30v6h10v-6M23 18s0-8 9-8 9 8 9 8"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_chronometer">
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M51.799 15.202c10.936 10.933 10.936 28.662 0 39.595-10.935 10.938-28.664 10.938-39.598 0-10.935-10.933-10.935-28.662 0-39.595 10.934-10.936 28.663-10.936 39.598 0z"></path>
+      <path d="M32 7V1h6M26 1h6m0 62v-4m0-48V7M4 35h4m48 0h4M14.564 17.565l2.83 2.829m29.212 29.212l2.83 2.83m0-34.871l-2.829 2.829M17.395 49.606l-2.831 2.83M32 21v12"></path>
+      <circle cx="32" cy="35" r="3"></circle>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_clessidre">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M14 1h36v4H14zm0 58h36v4H14zm4 0V45c0-6 29-19 29-25V5"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M47 59V45c0-6-29-19-29-25V5"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_clock">
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M53.92 10.081c12.107 12.105 12.107 31.732 0 43.838-12.106 12.108-31.734 12.108-43.84 0-12.107-12.105-12.107-31.732 0-43.838 12.106-12.108 31.733-12.108 43.84 0z"></path>
+      <path d="M32 12v20l9 9M4 32h4m48 0h4M32 60v-4m0-48V4"></path>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_clockwise">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 12v20l9 9M4 32h4m48 0h4M32 60v-4m0-48V4"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 63c17.121 0 31-13.879 31-31S49.121 1 32 1m0 62C14.879 63 1 49.121 1 32a30.857 30.857 0 0 1 5.759-18l5.62-5.621"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M13 19V8H2"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_cloud">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M41 50h14c4.565 0 8-3.582 8-8s-3.435-8-8-8c0-11.046-9.52-20-20.934-20C23.966 14 14.8 20.732 13 30h-1.667C5.626 30 1 34.477 1 40s4.293 10 10 10h30"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_clubs">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M30 38v6s0 19-7 19h9m0 0h9c-7 0-7-19-7-19v-6"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M34 38c0 7.457 8.044 12.125 15.5 12.125 7.455 0 13.5-6.043 13.5-13.5s-6.045-13.5-13.5-13.5c-2.678 0-5.168.789-7.267 2.135a13.374 13.374 0 0 0 3.204-8.697c0-7.422-6.017-13.438-13.438-13.438S18.562 9.141 18.562 16.562c0 3.32 1.21 6.353 3.205 8.697a13.43 13.43 0 0 0-7.268-2.135c-7.456 0-13.5 6.043-13.5 13.5s6.044 13.5 13.5 13.5C21.955 50.125 30 45.457 30 38"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_compass">
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="35" r="28.292"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M37 40l8-19-19 8-7 18z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M26 29l11 11m-.1-33a5 5 0 1 0-9.8 0M32 7v5m0 46v5m28-28h-5M9 35H4"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_cup">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M16 27c0 4.418 6.059 8 16 8s16-3.582 16-8V1H16v26zm4 36h24M32 35v28M16 7H7s0 9 9 9m32-9h9s0 9-9 9"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_diamonds">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M33 63l23-31L33 1 10 32z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_display">
+    <path d="M1 10h62v41H1zm21 53h20m-10 0V51M1 43h63" fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_download">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M40 50l-8 8-8-8"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 58V26m-8 16H1V6h62v36H40"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_exclamation">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M53.92 10.081c12.107 12.105 12.107 31.732 0 43.838-12.106 12.108-31.734 12.108-43.84 0-12.107-12.105-12.107-31.732 0-43.838 12.106-12.108 31.733-12.108 43.84 0z"></path>
+    <path stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 17v22m0 4v4"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_eye">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 32s11 15 31 15 31-15 31-15-11-15-31-15S1 32 1 32z"></path>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="7"></circle>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_eye_closed">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 32s11 15 31 15 31-15 31-15-11-15-31-15S1 32 1 32z"></path>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="7"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M9 55L55 9"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_female">
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="39" cy="25" r="24"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 63l21-21M1 46l17 17"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_flag1">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M12 0v64m0-58h41l-6 12 6 12H12"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_flag2">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M7 0v64M32.062 6L26 11v24h31l-6-12 6-12H26"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M26 30H7V6h25v5"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_floppydisk">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M63 63H1V1h50l12 12z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M7 31h50v32H7zm7 8h36m-36 8h36m-36 8h36M15 1h34v19H15z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M38 5h5v11h-5z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_folder">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M63 18v36H1V10h21l8 8z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_folder_multiple">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M56 22v32H1V15h18.629l7.097 7z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M8 13V7h18.629l7.097 7H63v32h-5"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_gear">
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M32 1h-6v9l-6 2-6-6-8 8 6 6-2 6H1v12h9l2 6-6 6 8 8 6-6 6 2v9h12v-9l6-2 6 6 8-8-6-6 2-6h9V26h-9l-2-6 6-6-8-8-6 6-6-2V1z"></path>
+      <circle cx="32" cy="32" r="6"></circle>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_geolocalize-01">
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <circle cx="32" cy="22" r="6"></circle>
+      <path d="M53 22.735C52.948 10.73 43.599 1 32 1s-21 9.73-21 21.735C11 38.271 31.965 63 31.965 63S53.069 38.271 53 22.735z"></path>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_geolocalize-05">
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <circle cx="32" cy="19.001" r="4"></circle>
+      <path d="M45 21.023C44.968 13.276 39.181 7 32 7s-13 6.276-13 14.023C19 31.046 31.979 47 31.979 47S45.043 31.046 45 21.023z"></path>
+    </g>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M21 37h-9L1 57h62L52 37h-9"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_globe">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 1c14.359 0 27 12.641 27 27S46.359 55 32 55c-10 0-13-4-13-4"></path>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="28" r="20"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 54v10m-10-1h20"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_gunsight">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 48v16m0-64v16M16 32H0m64 0H48"></path>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="24"></circle>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_hammer">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M22 20l19 19m22 16l-5.999 6-19-19 6-6zM1 19L17 3c6 6 13 1 13 1l4 4-22 22L1 19z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_headset">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M11 48C5.477 48 1 43.523 1 38s4.477-10 10-10h2v20h-2zm42-20c5.523 0 10 4.477 10 10s-4.477 10-10 10h-2V28h2zm-40 3v-9S13 6 32 6s19 16 19 16v6m0 20v5l-15 6h-8v-4h8v3"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_heart">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 21c0 20 31 38 31 38s31-18 31-38c0-8.285-6-16-15-16-8.285 0-16 5.715-16 14 0-8.285-7.715-14-16-14C7 5 1 12.715 1 21z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_heart_broken">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 21c0 20 31 38 31 38s31-18 31-38c0-8.285-6-16-15-16-8.285 0-16 5.715-16 14 0-8.285-7.715-14-16-14C7 5 1 12.715 1 21z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M29 57l7-7-6-6 6-6-6-6 8-8-6-5v-2"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_helm">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 40v24m0-64v24m6 13l21 17M5 10l21 17m12 0l21-16M5 53l21-16"></path>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="8"></circle>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="24"></circle>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_home">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 3L2 33h9v30h12V47h16v16h12V33h11z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_info">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M53.92 10.081c12.107 12.105 12.107 31.732 0 43.838-12.106 12.108-31.734 12.108-43.84 0-12.107-12.105-12.107-31.732 0-43.838 12.106-12.108 31.733-12.108 43.84 0z"></path>
+    <path stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 47V25m0-4v-4"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_ipod">
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M16 1h32v62H16zm0 35h32M16 5h32"></path>
+      <circle stroke-linejoin="bevel" cx="31.5" cy="49.5" r="9.5"></circle>
+      <circle stroke-linejoin="bevel" cx="31.5" cy="49.5" r="2.5"></circle>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_joypad">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M50 27H14C6.82 27 1 32.82 1 40s5.82 13 13 13c4.6 0 8.632-2.396 10.943-6h14.113C41.368 50.604 45.4 53 50 53c7.18 0 13-5.82 13-13s-5.82-13-13-13z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M14 32v16m8-8H6"></path>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" cx="50" cy="39.99" r="7"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M50 33v14m7-7H43"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 27v-6h14v-7H36v-3"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_key">
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="51" cy="32" r="12"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M0 32h38M6 32v10m8-10v6"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_keyboard">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 22h62v30H1zm6 0v-8h14V7H11V4M4 29h4m2 0h4m2 0h4m2 0h4m2 0h4m2 0h4m2 0h4m2 0h4m2 0h4M4 45h4m2 0h4m2 0h26m8 0h4m2 0h4m-16 0h4M8 37h4m2 0h4m2 0h4m2 0h4m2 0h4m2 0h4m2 0h4m2 0h4m2 0h4"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_laptop">
+    <path d="M8 12h48v34H8zM1 46h62v6H1zm33-30h-4" fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_life_buoy">
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="31"></circle>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="15"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M26 18V1m12 17V1M26 63V46m12 17V46m8-20h17M46 38h17M1 26h17M1 38h17"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_lightbulb">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M21 40v5h22l.001-5.107C49 36.195 53 29.564 53 22c0-11.598-9.402-21-21-21s-21 9.402-21 21c0 7.565 3.998 14.304 10 18zm7 5l-3-20m11 20l3-20"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M25 26l4 3 3-3 3 3 4-3M21 45h22v6H21zm2 6h18v6H23zm2 6h14v6H25z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_link">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M37.004 32.166a9.97 9.97 0 0 0 3.997.828 9.99 9.99 0 0 0 7.998-4.006L60.99 16.98a9.953 9.953 0 0 0 1.996-6.002C62.983 5.456 58.502.981 52.979.985a9.961 9.961 0 0 0-5.999 2.004L33.989 15.998c-1.768 1.805-2.997 4.277-2.996 7.003.001 1.424.3 2.778.837 4.003m.001 0c.053.121.107.24.166.358m-5 4.474a9.946 9.946 0 0 0-3.998-.83A9.959 9.959 0 0 0 17 33.01L4.01 46.02c-1.768 1.804-2.997 4.276-2.995 7.002.003 5.522 4.484 9.997 10.007 9.993a9.987 9.987 0 0 0 7.997-4.006L31.01 47.001a9.953 9.953 0 0 0 1.996-6.002 9.96 9.96 0 0 0-.835-3.998m-9.165 4.005l17.988-18.012"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_lock">
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M8 33h48v30H8zm8 0V17c0-8.837 7.163-16 16-16s16 7.163 16 16v16"></path>
+      <circle cx="32" cy="47" r="4"></circle>
+      <path d="M32 51v4"></path>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_lock_open">
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M8 33h48v30H8zm8 0V17c0-8.837 7.163-16 16-16s16 7.163 16 16v3"></path>
+      <circle cx="32" cy="47" r="4"></circle>
+      <path d="M32 51v4"></path>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_magic_mouse">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M48 17c0-8.836-7.164-16-16-16S16 8.164 16 17v30c0 8.836 7.164 16 16 16s16-7.164 16-16V17zm-16-7v8"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_magnifier">
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <circle cx="21" cy="21" r="20"></circle>
+      <path d="M35 35l6 6m22 16l-5.999 6-19-19 6-6z"></path>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_magnifier_minus">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M12 21h18"></path>
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <circle cx="21" cy="21" r="20"></circle>
+      <path d="M35 35l6 6m22 16l-5.999 6-19-19 6-6z"></path>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_magnifier_plus">
+    <path d="M12 21h18m-9-9v18" fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10"></path>
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <circle cx="21" cy="21" r="20"></circle>
+      <path d="M35 35l6 6m22 16l-5.999 6-19-19 6-6z"></path>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_mail">
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M1 13h62v37H1z"></path>
+      <path d="M1 13l31 20 31-20"></path>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_mail_multiple">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 18h52v32H1z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M9.887 16V9H63v32h-8"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M.887 18L27 33.062 53 18"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_mail_open">
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M1 26l31 19.434L63 26"></path>
+      <path d="M11.334 21.667L1 26v37h62V26l-10.334-4.333"></path>
+      <path d="M11 32V1h42v31"></path>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_mail_open_text">
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M36 9h9m-26 8h26m-26 8h26M1 26l31 19.434L63 26"></path>
+      <path d="M11.334 21.667L1 26v37h62V26l-10.334-4.333"></path>
+      <path d="M11 32V1h42v31"></path>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_male">
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="25" cy="39" r="24"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M63 1L42 22"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M45 1h18v18"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_map">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 59l21-8 20 8 21-8V5l-21 8-20-8-21 8zM22 5v46m20-38v46"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_message">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 47h31V5H1v42h17v12z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_message_multiple">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M26 49.042h28.963v-38H1v38h13v10.444z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M57 41.042h5.963v-38H9V9"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_message_txt">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M10 16h44M10 26h44M10 36h44M32 47h31V5H1v42h17v12z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_mixer2">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M12 19v45M52 0v45m-20-7v26m0-64v26"></path>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="12" cy="13" r="6"></circle>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="52" cy="51" r="6"></circle>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="6"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M12 0v7m40 50v7"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_mouse">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M48 17c0-8.836-7.164-16-16-16S16 8.164 16 17v30c0 8.836 7.164 16 16 16s16-7.164 16-16V17zM32 1v20m-16 0h32"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_notebook">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M11 1h42v62H11zm30 0v61M15 16H7m8-8H7m8 16H7m8 8H7m8 8H7m8 8H7m8 8H7"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_notebook_pen">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M63 3v50l-4 8-4-8V3zm-8 4h-4v10M4 3h40v58H4zm30 0v57M8 16H0m8-8H0m8 16H0m8 8H0m8 8H0m8 8H0m8 8H0"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_notebook_pencil">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M4 3h40v58H4zm30 0v57M8 16H0m8-8H0m8 16H0m8 8H0m8 8H0m8 8H0m8 8H0M55 1v53l4 8 4-8V1zm0 10h8"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_paperplane">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M1 30L63 1 23 41z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M34 63L63 1 23 41z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_pencil_ruler">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 63V2l61 61z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M14 54V30l24 24zM8 22H2m4 8H2m6 8H2m4 8H2m6 8H2M25 1l-6 6 36 36 8 2-2-8zm0 12l6-6"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_pencil_ruler_pen ">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M22 1h16v62H22zm9 11h7m0 10h-3m3 20h-3m-4-10h7m-7 20h7M16 63V10l-4-8-4 8v53zm0-10H8M56 3v50l-4 8-4-8V3zm-8 4h-4v10"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_photo">
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M46 20l-8-10H26l-8 10H1v32h62V20z"></path>
+      <circle cx="32" cy="36" r="8"></circle>
+      <path d="M9 20v32m45-24"></path>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_picture">
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M1 11h62v42H1z"></path>
+      <path d="M1 47l23-20 12 12 6-8 21 18"></path>
+      <circle cx="51" cy="22" r="5"></circle>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_picture_multiple">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 16h52v40H1z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M10 14V8h53v40h-8M1 46l14-14 14 16 10-6 14 12"></path>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="40" cy="29" r="5"></circle>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_pin1">
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="16" r="15"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M22.083 16c0-5.477 4.44-9.917 9.917-9.917M32 64V31"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_pin2">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 64V36m0-35H22v4l5 4-2 17-9 4-1 6h17m0-35h10v4l-5 4 2 17 9 4 1 6H32"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_postcard">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 13h62v41H1z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M49 19h8v10h-8zm-10-1v31M6 21h28M6 27h24M6 33h26"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_postcard_multiple">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 20h53v34H1z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M10 16.999V11h53v34h-6"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M42 25h7v8h-7zm-9-1v26M5 27h24M5 32h21M5 37h22"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_printer">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M16 1h32v19H16zm0 51H1V20h62v32H48"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M16 39h32v24H16zM6 27h4m2 0h4m6 20h20m-20 8h20"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_question">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M53.92 10.081c12.107 12.105 12.107 31.732 0 43.838-12.106 12.108-31.734 12.108-43.84 0-12.107-12.105-12.107-31.732 0-43.838 12.106-12.108 31.733-12.108 43.84 0z"></path>
+    <path stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M30 43v4"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M24 21c0-3 2-5 8-5 5 0 8 3 8 7s-6 7-6 7-4 2-4 8v1"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_rss">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M63.051 56a54.77 54.77 0 0 0-12.786-35.256m0 0C40.177 8.677 25.01 1 8.051 1m43.718 55c0-24.145-19.574-43.718-43.718-43.718M40.486 56c0-17.913-14.523-32.436-32.436-32.436M29.205 56c0-11.684-9.472-21.154-21.154-21.154"></path>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" cx="8.051" cy="56" r="7.051"></circle>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_server">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M5 41l6-40h42l6 40M5 41h54v22H5z"></path>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="48" cy="52" r="3"></circle>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_server_cloud">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M5 41l6-40h42l6 40M5 41h54v22H5z"></path>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="48" cy="52" r="3"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M34.887 27H39c1.887 0 3-1 3-3 0-1-1-3-3-3 0-3.604-3.277-6-7-6-3.295 0-6.413 2.978-7 6-2 0-3 2-3 3 0 2 1 3 3 3h10.434"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_server_download">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M5 41l6-40h42l6 40M5 41h54v22H5z"></path>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="48" cy="52" r="3"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M40 23l-8 8-8-8"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 31V11"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_server_upload">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M5 41l6-40h42l6 40M5 41h54v22H5z"></path>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="48" cy="52" r="3"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M23.998 20l8-8 8 8"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M31.998 12v20"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_server2">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M59 56c0 3.866-11.641 7-26 7S7 59.866 7 56m52-16c0 3.866-11.641 7-26 7S7 43.866 7 40m52-16c0 3.866-11.641 7-26 7S7 27.866 7 24"></path>
+    <ellipse fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" cx="33" cy="8" rx="26" ry="7"></ellipse>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M7 8v48M59 8v48"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_settings">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M36 34l5 5m22 16l-5.999 6-19-19 6-6zM12 16l6-6L8 4 6 6zm16 10L15 13m43-.5l-8 3.75-4-4.125 3.5-8.062C39.5 4.062 37 9 37 14v4L3.5 52l-1.75 6 2.125 2 6.062-1.5L44 25h4c5 0 10-2.5 10-12.5z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_share">
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="51" cy="13" r="12"></circle>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="11" cy="42" r="10"></circle>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="48" cy="55" r="8"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M40 54l-20-8m-1-11l22-14"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_sheet">
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M23 1h32v62H9V15z"></path>
+      <path d="M9 15h14V1"></path>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_sheet_multiple ">
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M20 9h27v54H8V21z"></path>
+      <path d="M24 6l5-5h27v54h-7M8 21h12V9"></path>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_sheet_pen">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M63 3v50l-4 8-4-8V3zm-8 4h-4v10m-9-2v46H1V3h29zM8 13h12M8 23h27M8 31h27M8 39h27M8 47h27"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M42 15H30V3"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_sheet_pencil">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M42 15v46H1V3h29zM55 1v53l4 8 4-8V1zM8 13h12M8 23h27M8 31h27M8 39h27M8 47h27"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M42 15H30V3m25 8h8"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_sheet_txt ">
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M23 1h32v62H9V15z"></path>
+      <path d="M9 15h14V1m9 13h14M18 24h28M18 34h28M18 44h28M18 54h28"></path>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_signs">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M55 24H22V12h33l7 6zM9 28h33v12H9l-7-6zm23 12v24m0-36v-4m0-12V7m-8 56h16"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_smartphone">
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M16 1h32v62H16zm12 4h8M16 51h32M16 9h32"></path>
+      <circle stroke-linejoin="bevel" cx="32" cy="57" r="2"></circle>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_spades">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 63h9c-7 0-7-19-7-19v-6c0 7.671 6 13 13 13 8.334 0 14-7.329 14-15C61 17.48 32 1 32 1S3 17.48 3 36c0 7.671 6.667 15 15 15 7 0 11.395-5.87 12-13v6s0 19-7 19h9"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_spread">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 6v48l31 4 31-4V6l-31 4zm31 52V10"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_spread_bookmark">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 6v48l31 4 31-4V6l-31 4zm31 52V10"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M43 8v19l4-2 4 2V7"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_spread_text">
+    <path d="M1 6v48l31 4 31-4V6l-31 4zm31 52V10M7 16l19 2M7 26l19 2M7 36l19 2M7 46l19 2m31-32l-19 2m19 8l-19 2m19 8l-19 2m19 8l-19 2" fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_spread_text_bookmark">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 6v48l31 4 31-4V6l-31 4zm31 52V10"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M43 8v19l4-2 4 2V7M7 16l19 2M7 26l19 2M7 36l19 2M7 46l19 2m31-12l-19 2m19 8l-19 2"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_star">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 47L12 62l8-24L2 24h22l8-23 8 23h22L44 38l8 24z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_tablet">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M11 1h42v62H11zm17 4h8M11 51h42M11 9h42"></path>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" cx="32" cy="57" r="2"></circle>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_target">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M53.92 10.081c12.107 12.105 12.107 31.732 0 43.838-12.106 12.108-31.734 12.108-43.84 0-12.107-12.105-12.107-31.732 0-43.838 12.106-12.108 31.733-12.108 43.84 0z"></path>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="22.999"></circle>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="15"></circle>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="6.999"></circle>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_todo">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M23 8H10v55h44V8H41"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M36 5V1h-8v4h-4l-2 8h20l-2-8z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_todo_pen ">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M63 3v50l-4 8-4-8V3zm-8 4h-4v10M14 8H1v55h44V8H32"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M27 5V1h-8v4h-4l-2 8h20l-2-8z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_todo_pencil">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M55 1v53l4 8 4-8V1zm0 10h8M14 8H1v55h44V8H32"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M27 5V1h-8v4h-4l-2 8h20l-2-8z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_todo_txt">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M25 24h22M25 34h22M25 44h22M25 54h22M21 24h-4m4 10h-4m4 10h-4m4 10h-4m6-46H10v55h44V8H41"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M36 5V1h-8v4h-4l-2 8h20l-2-8z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_todolist_pen">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M16 24h22M16 34h22M16 44h22M16 54h22M12 24H8m4 10H8m4 10H8m4 10H8m6-46H1v55h44V8H32"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M27 5V1h-8v4h-4l-2 8h20l-2-8zm36-2v50l-4 8-4-8V3zm-8 4h-4v10"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_todolist_pencil">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M16 24h22M16 34h22M16 44h22M16 54h22M12 24H8m4 10H8m4 10H8m4 10H8m6-46H1v55h44V8H32"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M27 5V1h-8v4h-4l-2 8h20l-2-8zm28-4v53l4 8 4-8V1zm0 10h8"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_trashcan">
+    <path d="M25 8V1h14v7m-25 2v53h36V10M26 20v34m12-34v34M10 9h44" fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_trashcan_full">
+    <path d="M52 36l6-2 4 14-6 2M10 13h36v50H10zm12 9v34m12-34v34m13.926-34.105L60 63M12 13l2-7 8.857.143L25 13m-2.143-6.857L27 1h12l5 12" fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_trashcan_refresh">
+    <path d="M25 8V1h14v7m-25 2v53h36V10M10 9h44" fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M23 36c0 4.418 3.582 9 8 9h4"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M32 49l3-4-3-4"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M41 36c0-4.418-3.582-9-8-9h-4"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M32 23l-3 4 3 4"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_trashcan_remove">
+    <path d="M25 8V1h14v7m-25 2v53h36V10M10 9h44M39 43L25 29m0 14l14-14" fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_upload">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M24 34l8-8 8 8"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 26v32m-8-16H1V6h62v36H40"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_usb">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 14L14 1l14 14-13 13zm10 18l21-21 31 31-21 21zM7 13l9 9M13 7l9 9"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_video">
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M46 30l17-10v32L46 42v10H1V20h45zM6 28h4m4 0h4"></path>
+      <path d="M7 36h18v10H7zM6 12h26l8 8"></path>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_watch">
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="20"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M20 15V1h24v14m0 34v14H20V49m12-29v12l8 4"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_webpage">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 7h62v50H1zm0 8h62m-53-4H6m12 0h-4m12 0h-4"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_webpage_img_txt">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 7h62v50H1zm0 8h62m-53-4H6m12 0h-4m12 0h-4M6 25h27M6 33h27M6 41h27"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M38 25h19v16H38z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_webpage_multiple">
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M1 15h54v42H1z"></path>
+      <path d="M11 12V7h52v43h-5M1 23h54m-45-4H6m12 0h-4m12 0h-4"></path>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_webpage_txt">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M6 25h52M6 33h52M6 41h52M1 7h62v50H1zm0 8h62m-53-4H6m12 0h-4m12 0h-4"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="basic_world">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32.001.887C49.185.887 63.114 14.816 63.113 32 63.114 49.185 49.184 63.115 32 63.113 14.815 63.114.887 49.185.888 32.001.885 14.816 14.815.887 32.001.887zM32 1v62m31-31H1"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M30 1S16 12 16 32s14 31 14 31m4-62s14 11 14 31-14 31-14 31"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M8 12s5 10 24 10 24-10 24-10M8 52s5-10 24-10 24 10 24 10"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_add_vectorpoint">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 53h10v10H1zM53 1h10v10H53z"></path>
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M44 22v-2h-2"></path>
+      <path stroke-dasharray="4,2" d="M40 20H23"></path>
+      <path d="M22 20h-2v2"></path>
+      <path stroke-dasharray="4,2" d="M20 24v17"></path>
+      <path d="M20 42v2h2"></path>
+      <path stroke-dasharray="4,2" d="M24 44h17"></path>
+      <path d="M42 44h2v-2"></path>
+      <path stroke-dasharray="4,2" d="M44 40V23"></path>
+    </g>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M11 53l9-9m24-24l9-9M32 25v14m7-7H25"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_box_oval">
+    <ellipse fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" rx="31" ry="20"></ellipse>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 32h62M32 12v40"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_box_polygon">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M16.676 59L1.351 32 16.676 5h30.648l15.325 27-15.325 27zM17 5l30 54m0-54L17 59"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_box_rectangle">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 12h62v40H1zm0 0l62 40m0-40L1 52"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_box_roundedrectangle">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M63 40c0 6.627-5.373 12-12 12H13C6.373 52 1 46.627 1 40V24c0-6.627 5.373-12 12-12h38c6.627 0 12 5.373 12 12v16zM5 15l54 34m0-34L5 49"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_character">
+    <path d="M12 52.5L27 10h1l15 42.75M17 38h21M52 0v64" fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_crop">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M0 11h53v53"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M11 0v53h53m-53 0L63 1"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_eyedropper">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M47 26l12-12 4-4c0-4.371-4.628-9-9-9 0 0-2.563 2.533-4 4L38 17"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M47 34L30 17l4-4 17 17zM34 22L4 54v2l-3 3 4 4 3-3h2l32-30"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_font_allcaps">
+    <path d="M31 50.987L18 16h-1L4 51m23-12H8m52 11.987L47 16h-1L33 51m23-12H37" fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 1h62v62H1z"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_font_baseline_shift">
+    <path d="M36 43L21 1h-1L5 43m26-14H10m49 2L51 8h-1l-8 23m15-7H44m-6 23H2m60-12H40" fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M58 47l-7-7-7 7"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M51 64V40"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_font_horizontal_scale">
+    <path d="M17 44L32 2h1l15 42M22 30h21" fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M55 63l7-7-7-7M9 49l-7 7 7 7"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M62 56H2"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_font_kerning">
+    <path d="M5 35l8-23h1l8 23M7 28h13m22 7l8-23h1l8 23m-15-7h13" fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10"></path>
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M32 6v2"></path>
+      <path stroke-dasharray="4,2" d="M32 10v29"></path>
+      <path d="M32 40v2"></path>
+    </g>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M55 63l7-7-7-7M9 49l-7 7 7 7"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M62 56H2"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_font_leading">
+    <path d="M36 24l8-23h1l8 23m-15-7h13M27 28h34M36 57l8-23h1l8 23m-15-7h13M27 61h34" fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M5 55l7 7 7-7m0-21l-7-7-7 7"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M12 62V27"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_font_size">
+    <path d="M28 43L43 1h1l15 42M33 29h21M5 43l8-23h1l8 23M7 36h13" fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M56 63l7-7-7-7M8 49l-7 7 7 7"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M63 56H1"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_font_smallcapital">
+    <path d="M37 51L22 9h-1L6 51m26-14H11m47 14l-8-23h-1l-8 23m15-7H43" fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 1h62v62H1z"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_font_smallcaps">
+    <path d="M38 51L23 9h-1L7 51m26-14H12m32-3s1.5-2 5.5-2 5.5 3 5.5 5v10s0 3 2.5 3" fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M55 40h-5s-7 0-7 5 4 5 5 5 7 0 7-7"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 1h62v62H1z"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_font_strikethrough">
+    <path d="M38 51L23 9h-1L7 51m25-16H13m31-1s1.5-2 5.5-2 5.5 3 5.5 5v10s0 3 2.5 3" fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M55 40h-5s-7 0-7 5 4 5 5 5 7 0 7-7"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 1h62v62H1zm5 43h52"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_font_tracking">
+    <path d="M9 35l8-23h1l8 23m-15-7h13m14 7l8-23h1l8 23m-15-7h13" fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10"></path>
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M32 6v2"></path>
+      <path stroke-dasharray="4,2" d="M32 10v29"></path>
+      <path d="M32 40v2"></path>
+    </g>
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M4 6v2"></path>
+      <path stroke-dasharray="4,2" d="M4 10v29"></path>
+      <path d="M4 40v2"></path>
+    </g>
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M60 6v2"></path>
+      <path stroke-dasharray="4,2" d="M60 10v29"></path>
+      <path d="M60 40v2"></path>
+    </g>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M55 63l7-7-7-7M9 49l-7 7 7 7"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M62 56H2"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_font_underline">
+    <path d="M38 51L23 9h-1L7 51m25-16H13m31-1s1.5-2 5.5-2 5.5 3 5.5 5v10s0 3 2.5 3" fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M55 40h-5s-7 0-7 5 4 5 5 5 7 0 7-7"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 1h62v62H1zm5 54h52"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_font_vertical_scale">
+    <path d="M29 53l15-42h1l15 42M34 39h21" fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M5 55l7 7 7-7m0-46l-7-7-7 7"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M12 62V2"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_horizontal_align_center">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 51v13m0-64v13m0 16v6M6 35h52v16H6zm6-22h40v16H12z"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_horizontal_align_left">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 0v64m6-29h52v16H7zm0-22h40v16H7z"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_horizontal_align_right">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M63 0v64M5 35h52v16H5zm12-22h40v16H17z"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_horizontal_distribute_center">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M43 0v12m0 40v12M21 0v6m0 52v6m14-52h16v40H35zM13 6h16v52H13z"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_horizontal_distribute_left">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M35 0v64M13 0v64m22-52h16v40H35zM13 6h16v52H13z"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_horizontal_distribute_right">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M29 64V0m22 64V0M13 6h16v52H13zm22 6h16v40H35z"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_indent_firstline">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M30 10h34M22 20h31M22 30h42M22 40h34M22 50h42M22 60h36"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M16 17l7-7-7-7"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M23 10H0"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_indent_left">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M30 7h34M30 17h22M30 27h34M30 37h25M30 47h34M30 57h27M25 0v64"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M12 39l7-7-7-7"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M19 32H0"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_indent_right">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M34 7H0m34 10H12m22 10H0m34 10H9m25 10H0m34 10H7M39 0v64"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M52 25l-7 7 7 7"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M45 32h19"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_lasso">
+    <ellipse fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="25.5" rx="31" ry="19.5"></ellipse>
+    <ellipse fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="21" cy="48" rx="6" ry="4"></ellipse>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M25 51s2 1 2 4-2 3-2 3"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_layers1">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M18 32.066L2 39l30 12 30-12-16-6.933"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 38l30-12-30-13L2 26z"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_layers2">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M18 26.066L2 33l30 12 30-12-16-6.933"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M18 39.066L2 46l30 12 30-12-16-6.933M32 32l30-12L32 7 2 20z"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_layout">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 1h62v62H1z"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_layout_2columns">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 1h31v62H1zm31 0h31v62H32z"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_layout_3columns">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 1h20v62H1zm42 0h20v62H43zM21 1h22v62H21z"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_layout_4boxes">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 32h31v31H1zm31 0h31v31H32zM1 1h31v31H1zm31 0h31v31H32z"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_layout_4columns">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 1h15v62H1zm15 0h16v62H16zm16 0h15v62H32zm15 0h16v62H47z"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_layout_4lines">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 1h62v15H1zm0 15h62v16H1zm0 16h62v15H1zm0 15h62v16H1z"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_layout_header">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 1h62v14H1zm0 14h62v48H1z"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_layout_header_2columns">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 1h62v14H1zm0 14h31v48H1zm31 0h31v48H32z"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_layout_header_3columns">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 1h62v14H1zm0 14h20v48H1zm42 0h20v48H43zm-22 0h22v48H21z"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_layout_header_4boxes">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 1h62v14H1zm0 38h31v24H1zm31 0h31v24H32zM1 15h31v24H1zm31 0h31v24H32z"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_layout_header_4columns">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 1h62v14H1zm0 14h15v48H1zm15 0h16v48H16zm16 0h15v48H32zm15 0h16v48H47z"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_layout_header_complex">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 1h62v14H1zm0 14h62v48H1zm21 0v48m0-25h41"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_layout_header_complex2">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 1h62v14H1zm0 14h62v48H1zm41 0v48M1 38h41"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_layout_header_complex3">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 1h62v14H1zm0 14h31v48H1zm31 0h15v48H32zm15 0h16v48H47z"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_layout_header_complex4">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 1h62v14H1zm0 14h31v48H1zm31 0h15v48H32zm15 0h16v48H47z"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_layout_header_sideleft">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 1h62v14H1zm0 14h62v48H1zm21 0v48"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_layout_header_sideright">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 1h62v14H1zm0 14h62v48H1zm41 0v48"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_layout_sidebar_left">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 1h20v62H1zm20 0h42v62H21z"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_layout_sidebar_right">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M43 1h20v62H43zM1 1h42v62H1z"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_layout-8boxes">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 48h31v15H1zm31 0h31v15H32zM1 32h31v16H1zm31 0h31v16H32zM1 17h31v15H1zm31 0h31v15H32zM1 1h31v16H1zm31 0h31v16H32z"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_magnete">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M24 42a8 8 0 0 0 16 0V1h13v41c0 11.598-9.402 21-21 21s-21-9.402-21-21V1h13v41zM11 10h13m16 0h13"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_pages">
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M11 11h21v42H1V21z"></path>
+      <path d="M1 21h10V11"></path>
+    </g>
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M53 11H32v42h31V21z"></path>
+      <path d="M63 21H53V11"></path>
+    </g>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 6v52"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_paintbrush">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M30 42l-4 4-8-8 4-4L62 1l1 1zm-8-8l8 8"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M26 46S18 63 1 63c0 0 2.752-16.314 9-21 4-3 8-4 8-4"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_paintbucket">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M3 38l25 25 26-26 7-1L33 8z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M32 27V6c0-2.762-2.238-5-5-5s-5 2.238-5 5v13"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_paintroller">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M7 1h48v17H7zM2 9h5"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M55 9h6v15H32v17m-4 1h8v21h-8z"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_paragraph">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M51 64V1H41v63M29 33h12m-12 0s-16 0-16-16S29 1 29 1h12"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_paragraph_align_left">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M0 7h64M0 17h46M0 27h64M0 37h50M0 47h64M0 57h54"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_paragraph_align_right">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M64 7H0m64 10H18m46 10H0m64 10H14m50 10H0m64 10H10"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_paragraph_center">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M0 7h64M9 17h46M0 27h64M7 37h50M0 47h64M5 57h54"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_paragraph_justify_all">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M64 7H0m64 10H0m64 10H0m64 10H0m64 10H0m64 10H0"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_paragraph_justify_center">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M64 7H0m64 10H0m64 10H0m64 10H0m64 10H0m54 10H10"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_paragraph_justify_left">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M0 7h64M0 17h64M0 27h64M0 37h64M0 47h64M0 57h44"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_paragraph_justify_right">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M64 7H0m64 10H0m64 10H0m64 10H0m64 10H0m64 10H20"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_paragraph_space_after">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M22 6h42M22 16h34M22 26h42M22 36h36"></path>
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M59 48v-2h-2"></path>
+      <path stroke-dasharray="4,2" d="M55 46H26"></path>
+      <path d="M25 46h-2v2"></path>
+      <path stroke-dasharray="3,2" d="M23 50v3"></path>
+      <path d="M23 54v2h2"></path>
+      <path stroke-dasharray="4,2" d="M27 56h29"></path>
+      <path d="M57 56h2v-2"></path>
+      <path stroke-dasharray="3,2" d="M59 53v-4"></path>
+    </g>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M10 58l7-7-7-7"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M17 51H0"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_paragraph_space_before">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M22 29h42M22 39h34M22 49h42M22 59h36"></path>
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M59 11V9h-2"></path>
+      <path stroke-dasharray="4,2" d="M55 9H26"></path>
+      <path d="M25 9h-2v2"></path>
+      <path stroke-dasharray="3,2" d="M23 13v3"></path>
+      <path d="M23 17v2h2"></path>
+      <path stroke-dasharray="4,2" d="M27 19h29"></path>
+      <path d="M57 19h2v-2"></path>
+      <path stroke-dasharray="3,2" d="M59 16v-4"></path>
+    </g>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M10 21l7-7-7-7"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M17 14H0"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_pathfinder_exclude">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M41 23v18H23"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M23 41H1V1h40v22"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M41 23h22v40H23V41"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M23 41V23h18"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_pathfinder_intersect">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M41 23v18H23"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="4,2" d="M23 41H1V1h40v22"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="4,2" d="M41 23h22v40H23V41"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M23 41V23h18"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_pathfinder_subtract">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M23 41H1V1h40v22"></path>
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M41 23h2"></path>
+      <path stroke-dasharray="4,2" d="M45 23h15"></path>
+      <path d="M61 23h2v2"></path>
+      <path stroke-dasharray="4,2" d="M63 27v33"></path>
+      <path d="M63 61v2h-2"></path>
+      <path stroke-dasharray="4,2" d="M59 63H26"></path>
+      <path d="M25 63h-2v-2"></path>
+      <path stroke-dasharray="4,2" d="M23 59V44"></path>
+      <path d="M23 43v-2"></path>
+    </g>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M23 41V23h18"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_pathfinder_unite">
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M41 23v2"></path>
+      <path stroke-dasharray="4,2" d="M41 27v11"></path>
+      <path d="M41 39v2h-2"></path>
+      <path stroke-dasharray="4,2" d="M37 41H26"></path>
+      <path d="M25 41h-2"></path>
+    </g>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M23 41H1V1h40v22"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M41 23h22v40H23V41"></path>
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M23 41v-2"></path>
+      <path stroke-dasharray="4,2" d="M23 37V26"></path>
+      <path d="M23 25v-2h2"></path>
+      <path stroke-dasharray="4,2" d="M27 23h11"></path>
+      <path d="M39 23h2"></path>
+    </g>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_pen">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M23 57h18v6H23zm-4-10h26v10H19zm22 0v-4l7-13L32 1 16 30l7 13v4"></path>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="28.875" r="4"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 1v24"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_pen_add">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M23 57h18v6H23zm-4-10h26v10H19zm22 0v-4l7-13L32 1 16 30l7 13v4m9-24v14m7-7H25"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_pen_remove">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M23 57h18v6H23zm-4-10h26v10H19zm22 0v-4l7-13L32 1 16 30l7 13v4m16-17H25"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_pencil">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M20 54L10 44m0 0L1 62l1 1 18-9 43-43L53 1zm44-24L44 10m14 6L48 6"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M5 54l4 1 1 4"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_polygonallasso">
+    <ellipse fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="21" cy="53" rx="6" ry="4"></ellipse>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M25 56s2 1 2 4-2 3-2 3m-3-14L5 12l35 6L59 1v40L26 51"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_reflect_horizontal">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 17v40l20-20z"></path>
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M61.586 55.586L63 57v-2"></path>
+      <path stroke-dasharray="4,2" d="M63 53V20"></path>
+      <path d="M63 19v-2l-1.414 1.414"></path>
+      <path stroke-dasharray="3.736,1.868" d="M60.265 19.735l-15.19 15.19"></path>
+      <path d="M44.414 35.586L43 37l1.414 1.414"></path>
+      <path stroke-dasharray="3.736,1.868" d="M45.735 39.735l15.19 15.19"></path>
+    </g>
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M32 61v-2"></path>
+      <path stroke-dasharray="4,2" d="M32 57V16"></path>
+      <path d="M32 15v-2"></path>
+    </g>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M46 13h11V2"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M57 13C51.378 5.132 42.408 1 32 1 21.591 1 12.622 5.13 7 13"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_reflect_vertical">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M46 1H6l20 20z"></path>
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M7.414 61.586L6 63h2"></path>
+      <path stroke-dasharray="4,2" d="M10 63h33"></path>
+      <path d="M44 63h2l-1.414-1.414"></path>
+      <path stroke-dasharray="3.736,1.868" d="M43.265 60.265l-15.19-15.19"></path>
+      <path d="M27.414 44.414L26 43l-1.414 1.414"></path>
+      <path stroke-dasharray="3.736,1.868" d="M23.265 45.735l-15.19 15.19"></path>
+    </g>
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M2 32h2"></path>
+      <path stroke-dasharray="4,2" d="M6 32h41"></path>
+      <path d="M48 32h2"></path>
+    </g>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M51 46v11h11"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M51 57c7.868-5.622 12-14.592 12-25 0-10.409-4.13-19.378-12-25"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_remove_vectorpoint">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 53h10v10H1zM53 1h10v10H53z"></path>
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M44 22v-2h-2"></path>
+      <path stroke-dasharray="4,2" d="M40 20H23"></path>
+      <path d="M22 20h-2v2"></path>
+      <path stroke-dasharray="4,2" d="M20 24v17"></path>
+      <path d="M20 42v2h2"></path>
+      <path stroke-dasharray="4,2" d="M24 44h17"></path>
+      <path d="M42 44h2v-2"></path>
+      <path stroke-dasharray="4,2" d="M44 40V23"></path>
+    </g>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M11 53l9-9m24-24l9-9M39 32H25"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_scale_expand">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="4,2" d="M1 28V1h62v62H36"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 33h30v30H1z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M57 18V7H46"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M57 7L41 23"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_scale_reduce">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 30V1h62v62H34"></path>
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M31 35v-2h-2"></path>
+      <path stroke-dasharray="4,2" d="M27 33H4"></path>
+      <path d="M3 33H1v2"></path>
+      <path stroke-dasharray="4,2" d="M1 37v23"></path>
+      <path d="M1 61v2h2"></path>
+      <path stroke-dasharray="4,2" d="M5 63h23"></path>
+      <path d="M29 63h2v-2"></path>
+      <path stroke-dasharray="4,2" d="M31 59V36"></path>
+    </g>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M41 12v11h11"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M41 23L57 7"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_selection_oval">
+    <ellipse fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="4.0012,2.0006" cx="32" cy="32" rx="31" ry="20"></ellipse>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_selection_polygon">
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M19 59h-2.325l-.824-1.739"></path>
+      <path stroke-dasharray="4.1609,2.0805" d="M14.661 55.451L2.851 34.644"></path>
+      <path d="M2.338 33.739L1.351 32l.987-1.739"></path>
+      <path stroke-dasharray="4.1609,2.0805" d="M3.365 28.451l11.81-20.807"></path>
+      <path d="M15.851 6.739L16.675 5H19"></path>
+      <path stroke-dasharray="4,2" d="M21 5h23"></path>
+      <path d="M45 5h2.325l.824 1.739"></path>
+      <path stroke-dasharray="4.1609,2.0805" d="M49.339 8.549l11.81 20.807"></path>
+      <path d="M61.662 30.261L62.649 32l-.987 1.739"></path>
+      <path stroke-dasharray="4.1609,2.0805" d="M60.635 35.549l-11.81 20.807"></path>
+      <path d="M48.149 57.261L47.325 59H45"></path>
+      <path stroke-dasharray="4,2" d="M43 59H20"></path>
+    </g>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_selection_rectangle">
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <path d="M63 50v2h-2"></path>
+      <path stroke-dasharray="4,2" d="M59 52H4"></path>
+      <path d="M3 52H1v-2"></path>
+      <path stroke-dasharray="4,2" d="M1 48V15"></path>
+      <path d="M1 14v-2h2"></path>
+      <path stroke-dasharray="4,2" d="M5 12h55"></path>
+      <path d="M61 12h2v2"></path>
+      <path stroke-dasharray="4,2" d="M63 16v33"></path>
+    </g>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_selection_roundedrectangle">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="3.9436,1.9718" d="M63 40c0 6.627-5.373 12-12 12H13C6.373 52 1 46.627 1 40V24c0-6.627 5.373-12 12-12h38c6.627 0 12 5.373 12 12v16z"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_shape_oval">
+    <ellipse fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" rx="31" ry="20"></ellipse>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_shape_polygon">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M16.675 59L1.351 32 16.675 5h30.65l15.324 27-15.324 27z"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_shape_rectangle">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 12h62v40H1z"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_shape_roundedrectangle">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M63 40c0 6.627-5.373 12-12 12H13C6.373 52 1 46.627 1 40V24c0-6.627 5.373-12 12-12h38c6.627 0 12 5.373 12 12v16z"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_slice">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M1 59l36-36 7 7-8 15zm39-39L57 3l6 6-16 18z"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_transform_bezier">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 41h10v10H1zm52 0h10v10H53zM27 13h10v10H27z"></path>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="4" cy="18" r="3"></circle>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="60" cy="18" r="3"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M7 18h20C6 18 6 41 6 41m51-23H37c21 0 21 23 21 23"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_vector_box">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 53h10v10H1zm52 0h10v10H53zM1 1h10v10H1zm52 0h10v10H53zM6 11v42m52-42v42M53 6H11m42 52H11"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_vector_composite">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 53h10v10H1zM53 1h10v10H53zM27 27h10v10H27zM11 53l16-16m10-10l16-16"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_vector_line">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 53h10v10H1zM53 1h10v10H53zM11 53l42-42"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_vertical_align_bottom">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M64 63H0M13 5h16v52H13zm22 12h16v40H35z"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_vertical_align_center">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M13 32H0m64 0H51m-16 0h-6M13 6h16v52H13zm22 6h16v40H35z"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_vertical_align_top">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M0 1h64M13 7h16v52H13zm22 0h16v40H35z"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_vertical_distribute_bottom">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M0 29h64M0 51h64M12 13h40v16H12zM6 35h52v16H6z"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_vertical_distribute_center">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M0 21h12m40 0h12M0 43h6m52 0h6M12 13h40v16H12zM6 35h52v16H6z"></path>
+  </symbol>
+  <symbol version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="software_vertical_distribute_top">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M64 35H0m64-22H0m6 22h52v16H6zm6-22h40v16H12z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_aquarius">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M0 28l16-12 4 12 16-12 4 12 15-12 8 12M0 48l16-12 4 12 16-12 4 12 15-12 8 12"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_aries">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M6 25s-5-5-5-11S3 1 13 1c13.25 0 19 22 19 63m26-39s5-5 5-11S61 1 51 1C37.75 1 32 23 32 64"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_cancer">
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="11" cy="27" r="10"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M5 19s7-6 28-6c15 0 31 10 31 10"></path>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="53" cy="37" r="10"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M59 45s-7 6-28 6C16 51 0 41 0 41"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_capricorn">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M9 5s0-4 6-4c5 0 4 10 4 10v29"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M19 11s0-10 7-10 7 10 7 10v29s-1 14 15 14"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M48 40c-3 0-12 1-12 12 0 1 1 11-12 11m24-9a7 7 0 1 0 0-14"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_cloud">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M55 50c4.565 0 8-3.435 8-8 0-4.565-3.435-9-8-9 0-11.414-9.586-20-21-20-10.102 0-19.2 6.423-21 16h-2C5.292 29 1 34.292 1 40s4.292 10 10 10h44z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_cloud_drop">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M18 40h-7C5.292 40 1 35.708 1 30s4.292-11 10-11h2C14.8 9.423 23.898 3 34 3c11.414 0 21 8.586 21 20 4.565 0 8 4.435 8 9s-3.435 8-8 8H45"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M23 42c0 5.034 4.136 8 9 8s8-2.966 8-8c0-7-8-17-8-17s-9 10-9 17z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_cloud_lightning">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M37 23L23 42h6l-2 13 14-19h-6z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M18 40h-7C5.292 40 1 35.708 1 30s4.292-11 10-11h2C14.8 9.423 23.898 3 34 3c11.414 0 21 8.586 21 20 4.565 0 8 4.435 8 9s-3.435 8-8 8h-9"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_cloud_snowflake">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M18 40h-7C5.292 40 1 35.708 1 30s4.292-11 10-11h2C14.8 9.423 23.898 3 34 3c11.414 0 21 8.586 21 20 4.565 0 8 4.435 8 9s-3.435 8-8 8h-9"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M21 37l2 3-2 3m22 0l-2-3 2-3m-13 3h-7m18 0h-7m-5 11l3-2 3 2m0-22l-3 2-3-2m3 13v7m0-18v7m-5.657-7.899l-.707 3.535-3.535.707m15.556 15.556l.707-3.535 3.535-.707M30 38l-4.364-4.364m12.728 12.728L34 42m-11.899 3.657l3.535.707.707 3.535m15.556-15.556l-3.535-.707-.707-3.535M30 42l-4.364 4.364m12.728-12.728L34 38"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_downpour_fullmoon">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M56 45c4.19 0 7-2.81 7-7 0-4.189-2.81-9-7-9 0-10.475-9.525-18-20-18-9.271 0-17.348 6.211-19 15h-2c-5.238 0-9 4.762-9 10s3.762 9 9 9h41z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M7.004 32.959a13.068 13.068 0 0 1-3.961-3.96A12.94 12.94 0 0 1 1 22C1 14.82 6.82 9 14 9c4.604 0 8.646 2.392 10.957 6.001M20 48l-8 14m18-14l-8 14m18-14l-8 14m18-14l-8 14"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_downpour_halfmoon">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M56 45c4.19 0 7-2.81 7-7 0-4.189-2.81-9-7-9 0-10.475-9.525-18-20-18-9.271 0-17.348 6.211-19 15h-2c-5.238 0-9 4.762-9 10s3.762 9 9 9h41z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M24.957 15.001C22.646 11.392 18.604 9 14 9c-.826 0-1.631.085-2.414.233A8.945 8.945 0 0 1 13 14.063a9 9 0 0 1-9 9 8.97 8.97 0 0 1-2.98-.516 12.936 12.936 0 0 0 2.023 6.452 13.068 13.068 0 0 0 3.961 3.96M20 48l-8 14m18-14l-8 14m18-14l-8 14m18-14l-8 14"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_downpour_sun">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M56 45c4.19 0 7-2.81 7-7 0-4.189-2.81-9-7-9 0-10.475-9.525-18-20-18-9.271 0-17.348 6.211-19 15h-2c-5.238 0-9 4.762-9 10s3.762 9 9 9h41z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M29.999 11.752A12.945 12.945 0 0 0 22 9C14.82 9 9 14.82 9 22c0 2.577.707 3.979 2 6m-5-6H0M22 6V0M10 10L4 4m16 44l-8 14m18-14l-8 14m18-14l-8 14m18-14l-8 14"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_drop">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M11 41.265C11.052 53.27 20.401 63 32 63s21-9.73 21-21.735C53 25.729 32.035 1 32.035 1S10.931 25.729 11 41.265z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_first_quarter ">
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="31"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 5H17m15 6H9m23 6H5m27 6H2m30 6H1m31 34V1m0 34H1m31 6H2m30 6H5m27 6H9m23 6H17"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_fog">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M55 40c4.565 0 8-3.435 8-8 0-4.565-3.435-9-8-9 0-11.414-9.586-20-21-20-10.102 0-19.2 6.423-21 16h-2C5.292 19 1 24.292 1 30s4.292 10 10 10m2 0h40m-40 8h40m-40 8h40"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_fog_fullmoon">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M56 45c4.19 0 7-2.81 7-7 0-4.189-2.81-9-7-9 0-10.475-9.525-18-20-18-9.271 0-17.348 6.211-19 15h-2c-5.238 0-9 4.762-9 10s3.762 9 9 9"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M7.004 32.959a13.068 13.068 0 0 1-3.961-3.96A12.94 12.94 0 0 1 1 22C1 14.82 6.82 9 14 9c4.604 0 8.646 2.392 10.957 6.001M17 45h37m-37 6h37m-37 6h37"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_fog_halfmoon">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M56 45c4.19 0 7-2.81 7-7 0-4.189-2.81-9-7-9 0-10.475-9.525-18-20-18-9.271 0-17.348 6.211-19 15h-2c-5.238 0-9 4.762-9 10s3.762 9 9 9"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M24.957 15.001C22.646 11.392 18.604 9 14 9c-.826 0-1.631.085-2.414.233A8.945 8.945 0 0 1 13 14.063a9 9 0 0 1-9 9 8.97 8.97 0 0 1-2.98-.516 12.936 12.936 0 0 0 2.023 6.452 13.068 13.068 0 0 0 3.961 3.96M17 45h37m-37 6h37m-37 6h37"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_fog_sun">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M56 45c4.19 0 7-2.81 7-7 0-4.189-2.81-9-7-9 0-10.475-9.525-18-20-18-9.271 0-17.348 6.211-19 15h-2c-5.238 0-9 4.762-9 10s3.762 9 9 9"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M29.999 11.752A12.945 12.945 0 0 0 22 9C14.82 9 9 14.82 9 22c0 2.577.707 3.979 2 6m-5-6H0M22 6V0M10 10L4 4m13 41h37m-37 6h37m-37 6h37"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_fullmoon">
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="31"></circle>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_gemini">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M0 8s16 4 32 4 32-4 32-4m0 48s-16-4-32-4-32 4-32 4m21-44v40m22-40v40"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_hail">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M55 40c4.565 0 8-3.435 8-8 0-4.565-3.435-9-8-9 0-11.414-9.586-20-21-20-10.102 0-19.2 6.423-21 16h-2C5.292 19 1 24.292 1 30s4.292 10 10 10h44zm-31 5l-5 11m-5-11L9 56m25-11l-5 11m15-11l-5 11m15-11l-5 11m-32 3l-1 2m-9-2l-1 2m21-2l-1 2m11-2l-1 2m11-2l-1 2"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_hail_fullmoon">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M56 45c4.19 0 7-2.81 7-7 0-4.189-2.81-9-7-9 0-10.475-9.525-18-20-18-9.271 0-17.348 6.211-19 15h-2c-5.238 0-9 4.762-9 10s3.762 9 9 9h41z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M7.004 32.959a13.068 13.068 0 0 1-3.961-3.96A12.94 12.94 0 0 1 1 22C1 14.82 6.82 9 14 9c4.604 0 8.646 2.392 10.957 6.001M20 48l-4 9m14-9l-4 9m14-9l-4 9m14-9l-4 9m-31 3l-1 2m11-2l-1 2m11-2l-1 2m11-2l-1 2"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_hail_halfmoon">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M56 45c4.19 0 7-2.81 7-7 0-4.189-2.81-9-7-9 0-10.475-9.525-18-20-18-9.271 0-17.348 6.211-19 15h-2c-5.238 0-9 4.762-9 10s3.762 9 9 9h41z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M24.957 15.001C22.646 11.392 18.604 9 14 9c-.826 0-1.631.085-2.414.233A8.945 8.945 0 0 1 13 14.063a9 9 0 0 1-9 9 8.97 8.97 0 0 1-2.98-.516 12.936 12.936 0 0 0 2.023 6.452 13.068 13.068 0 0 0 3.961 3.96M20 48l-4 9m14-9l-4 9m14-9l-4 9m14-9l-4 9m-31 3l-1 2m11-2l-1 2m11-2l-1 2m11-2l-1 2"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_hail_sun">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M56 45c4.19 0 7-2.81 7-7 0-4.189-2.81-9-7-9 0-10.475-9.525-18-20-18-9.271 0-17.348 6.211-19 15h-2c-5.238 0-9 4.762-9 10s3.762 9 9 9h41z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M29.999 11.752A12.945 12.945 0 0 0 22 9C14.82 9 9 14.82 9 22c0 2.577.707 3.979 2 6m-5-6H0M22 6V0M10 10L4 4m16 44l-4 9m14-9l-4 9m14-9l-4 9m14-9l-4 9m-31 3l-1 2m11-2l-1 2m11-2l-1 2m11-2l-1 2"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_last_quarter">
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="31"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 59h15m-15-6h23m-23-6h27m-27-6h30m-30-6h31M32 1v62m0-34h31m-31-6h30m-30-6h27m-27-6h23M32 5h15"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_leo">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M22.649 33.597c-8.337-4.888-11.134-15.608-6.247-23.946C21.29 1.312 32.012-1.485 40.35 3.403c8.337 4.888 11.134 15.608 6.247 23.946C46.597 27.35 36 46 36 54"></path>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="19" cy="42" r="9"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M53.064 58A9 9 0 0 1 36 54"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_libra">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M41.667 38.002a16.087 16.087 0 0 0 6.444-12.891C48.111 16.213 40.897 9 32 9s-16.111 7.213-16.111 16.111c0 5.27 2.53 9.948 6.442 12.889M0 38h23m18 0h23M0 55h64"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_lightning">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M40 1L17 37h14l-7 26 26-36H36z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_mistyrain">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M55 40c4.565 0 8-3.435 8-8 0-4.565-3.435-9-8-9 0-11.414-9.586-20-21-20-10.102 0-19.2 6.423-21 16h-2C5.292 19 1 24.292 1 30s4.292 10 10 10h44zM17 59l-1 2m-9-2l-1 2m21-2l-1 2m11-2l-1 2m11-2l-1 2m-22-9l-1 2m-9-2l-1 2m21-2l-1 2m11-2l-1 2m11-2l-1 2M19 44l-1 2m-9-2l-1 2m21-2l-1 2m11-2l-1 2m11-2l-1 2"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_mistyrain_fullmoon">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M56 45c4.19 0 7-2.81 7-7 0-4.189-2.81-9-7-9 0-10.475-9.525-18-20-18-9.271 0-17.348 6.211-19 15h-2c-5.238 0-9 4.762-9 10s3.762 9 9 9h41z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M7.004 32.959a13.068 13.068 0 0 1-3.961-3.96A12.94 12.94 0 0 1 1 22C1 14.82 6.82 9 14 9c4.604 0 8.646 2.392 10.957 6.001M15 60l-1 2m11-2l-1 2m11-2l-1 2m11-2l-1 2M19 48l-1 2m11-2l-1 2m11-2l-1 2m11-2l-1 2m-37 4l-1 2m11-2l-1 2m11-2l-1 2m11-2l-1 2"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_mistyrain_halfmoon">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M56 45c4.19 0 7-2.81 7-7 0-4.189-2.81-9-7-9 0-10.475-9.525-18-20-18-9.271 0-17.348 6.211-19 15h-2c-5.238 0-9 4.762-9 10s3.762 9 9 9h41z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M24.957 15.001C22.646 11.392 18.604 9 14 9c-.826 0-1.631.085-2.414.233A8.945 8.945 0 0 1 13 14.063a9 9 0 0 1-9 9 8.97 8.97 0 0 1-2.98-.516 12.936 12.936 0 0 0 2.023 6.452 13.068 13.068 0 0 0 3.961 3.96M15 60l-1 2m11-2l-1 2m11-2l-1 2m11-2l-1 2M19 48l-1 2m11-2l-1 2m11-2l-1 2m11-2l-1 2m-37 4l-1 2m11-2l-1 2m11-2l-1 2m11-2l-1 2"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_mistyrain_sun">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M56 45c4.19 0 7-2.81 7-7 0-4.189-2.81-9-7-9 0-10.475-9.525-18-20-18-9.271 0-17.348 6.211-19 15h-2c-5.238 0-9 4.762-9 10s3.762 9 9 9h41z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M29.999 11.752A12.945 12.945 0 0 0 22 9C14.82 9 9 14.82 9 22c0 2.577.707 3.979 2 6m-5-6H0M22 6V0M10 10L4 4m11 56l-1 2m11-2l-1 2m11-2l-1 2m11-2l-1 2M19 48l-1 2m11-2l-1 2m11-2l-1 2m11-2l-1 2m-37 4l-1 2m11-2l-1 2m11-2l-1 2m11-2l-1 2"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_moon">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M6 52c14.359 0 26-11.641 26-26 0-9.994-6.729-18.648-15-23 3.396-1.277 8.158-2 12-2 17.121 0 31 13.879 31 31S46.121 63 29 63c-9.505 0-18.313-4.265-24-11 .23.006.768 0 1 0z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_moondown_full">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M0 47h64"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M25 53l7 7 7-7"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M48.159 47A18.913 18.913 0 0 0 51 37c0-10.493-8.506-19-19-19s-19 8.507-19 19c0 3.668 1.04 7.094 2.841 9.998"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_moondown_half">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M0 47h64"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M25 53l7 7 7-7"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M48.158 47A18.905 18.905 0 0 0 51 37c0-10.493-8.506-19-19-19-.059 0-.115.008-.175.009A13.44 13.44 0 0 1 33 23.5C33 30.956 26.956 37 19.5 37c-2.323 0-4.51-.588-6.418-1.621A19.287 19.287 0 0 0 13 37a18.9 18.9 0 0 0 2.841 9.998"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_moonset_full">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M0 47h64"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M39 60l-7-7-7 7"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M48.159 47A18.913 18.913 0 0 0 51 37c0-10.493-8.506-19-19-19s-19 8.507-19 19c0 3.668 1.04 7.094 2.841 9.998"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_moonset_half">
+    <path fill="none" stroke="#010101" stroke-width="2" stroke-miterlimit="10" d="M0 47h64"></path>
+    <path fill="none" stroke="#010101" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M25 53l7 7 7-7"></path>
+    <path fill="none" stroke="#010101" stroke-width="2" stroke-miterlimit="10" d="M48.158 47A18.905 18.905 0 0 0 51 37c0-10.493-8.506-19-19-19-.059 0-.115.008-.175.009A13.44 13.44 0 0 1 33 23.5C33 30.956 26.956 37 19.5 37c-2.323 0-4.51-.588-6.418-1.621A19.287 19.287 0 0 0 13 37a18.9 18.9 0 0 0 2.841 9.998"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_move2">
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="31"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 5H17m15 6H9m23 6H5m27 6H2m30 6H1m31 34V1m0 34H1m31 6H2m30 6H5m27 6H9m23 6H17"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_newmoon">
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="31"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M47 5H17m38 6H9m50 6H5m57 6H2m61 6H1m62 6H1m61 6H2m57 6H5m50 6H9m38 6H17"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_pisces">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M54 0S44 16 44 32s10 32 10 32m-44 0s10-16 10-32S10 0 10 0M7 32h50"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_rain">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M55 40c4.565 0 8-3.435 8-8 0-4.565-3.435-9-8-9 0-11.414-9.586-20-21-20-10.102 0-19.2 6.423-21 16h-2C5.292 19 1 24.292 1 30s4.292 10 10 10h44zm-33 6v14M12 46v14m20-14v14m10-14v14m10-14v14"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_rain_fullmoon">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M56 45c4.19 0 7-2.81 7-7 0-4.189-2.81-9-7-9 0-10.475-9.525-18-20-18-9.271 0-17.348 6.211-19 15h-2c-5.238 0-9 4.762-9 10s3.762 9 9 9h41z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M7.004 32.959a13.068 13.068 0 0 1-3.961-3.96A12.94 12.94 0 0 1 1 22C1 14.82 6.82 9 14 9c4.604 0 8.646 2.392 10.957 6.001M20 48v14m10-14v14m10-14v14m10-14v14"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_rain_halfmoon">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M56 45c4.19 0 7-2.81 7-7 0-4.189-2.81-9-7-9 0-10.475-9.525-18-20-18-9.271 0-17.348 6.211-19 15h-2c-5.238 0-9 4.762-9 10s3.762 9 9 9h41z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M24.957 15.001C22.646 11.392 18.604 9 14 9c-.826 0-1.631.085-2.414.233A8.945 8.945 0 0 1 13 14.063a9 9 0 0 1-9 9 8.97 8.97 0 0 1-2.98-.516 12.936 12.936 0 0 0 2.023 6.452 13.068 13.068 0 0 0 3.961 3.96M20 48v14m10-14v14m10-14v14m10-14v14"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_rain_sun">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M56 45c4.19 0 7-2.81 7-7 0-4.189-2.81-9-7-9 0-10.475-9.525-18-20-18-9.271 0-17.348 6.211-19 15h-2c-5.238 0-9 4.762-9 10s3.762 9 9 9h41z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M29.999 11.752A12.945 12.945 0 0 0 22 9C14.82 9 9 14.82 9 22c0 2.577.707 3.979 2 6m-5-6H0M22 6V0M10 10L4 4m16 44v14m10-14v14m10-14v14m10-14v14"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_sagittarius">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M63 1L0 64M36 1h27v27M1 28l35 35"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_scorpio">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M30 52V12s0-11 8-11 8 11 8 11v40s0 6 6 6h5m-43-6V12s.083-11 8-11 8 11 8 11m-16 0S14 2 6 2"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M52 53l5 5-5 5"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_snow">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M55 40c4.565 0 8-3.435 8-8 0-4.565-3.435-9-8-9 0-11.414-9.586-20-21-20-10.102 0-19.2 6.423-21 16h-2C5.292 19 1 24.292 1 30s4.292 10 10 10h44zm-33 3v5m0 4v5m5-12l-3 3m-4 4l-3 3m10 0l-3-3m-4-4l-3-3m12 5h-5m-4 0h-5m27-2v5m0 4v5m5-12l-3 3m-4 4l-3 3m10 0l-3-3m-4-4l-3-3m12 5h-5m-4 0h-5"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_snow_fullmoon">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M56 45c4.19 0 7-2.81 7-7 0-4.189-2.81-9-7-9 0-10.475-9.525-18-20-18-9.271 0-17.348 6.211-19 15h-2c-5.238 0-9 4.762-9 10s3.762 9 9 9h41z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M7.004 32.959a13.068 13.068 0 0 1-3.961-3.96A12.94 12.94 0 0 1 1 22C1 14.82 6.82 9 14 9c4.604 0 8.646 2.392 10.957 6.001M24 48v4m0 4v4m4-10l-2 2m-4 4l-2 2m8 0l-2-2m-4-4l-2-2m10 4h-4m-4 0h-4m26-4v4m0 4v4m4-10l-2 2m-4 4l-2 2m8 0l-2-2m-4-4l-2-2m10 4h-4m-4 0h-4"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_snow_halfmoon">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M56 45c4.19 0 7-2.81 7-7 0-4.189-2.81-9-7-9 0-10.475-9.525-18-20-18-9.271 0-17.348 6.211-19 15h-2c-5.238 0-9 4.762-9 10s3.762 9 9 9h41z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M24.957 15.001C22.646 11.392 18.604 9 14 9c-.826 0-1.631.085-2.414.233A8.945 8.945 0 0 1 13 14.063a9 9 0 0 1-9 9 8.97 8.97 0 0 1-2.98-.516 12.936 12.936 0 0 0 2.023 6.452 13.068 13.068 0 0 0 3.961 3.96M24 48v4m0 4v4m4-10l-2 2m-4 4l-2 2m8 0l-2-2m-4-4l-2-2m10 4h-4m-4 0h-4m26-4v4m0 4v4m4-10l-2 2m-4 4l-2 2m8 0l-2-2m-4-4l-2-2m10 4h-4m-4 0h-4"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_snow_sun">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M56 45c4.19 0 7-2.81 7-7 0-4.189-2.81-9-7-9 0-10.475-9.525-18-20-18-9.271 0-17.348 6.211-19 15h-2c-5.238 0-9 4.762-9 10s3.762 9 9 9h41z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M29.999 11.752A12.945 12.945 0 0 0 22 9C14.82 9 9 14.82 9 22c0 2.577.707 3.979 2 6m-5-6H0M22 6V0M10 10L4 4m20 44v4m0 4v4m4-10l-2 2m-4 4l-2 2m8 0l-2-2m-4-4l-2-2m10 4h-4m-4 0h-4m26-4v4m0 4v4m4-10l-2 2m-4 4l-2 2m8 0l-2-2m-4-4l-2-2m10 4h-4m-4 0h-4"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_snowflake">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M1 24l8 8-8 8m62 0l-8-8 8-8M24 63l8-8 8 8m0-62l-8 8-8-8M5 49h10v10m44-44H49V5M38 26l11-11M15 49l11-11M15 5v10H5m44 44V49h10M38 38l11 11M15 15l11 11m14 6h15M9 32h15m8 8v15m0-46v15"></path>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="8"></circle>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_star">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 47L12 62l8-24L2 24h22l8-23 8 23h22L44 38l8 24z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_storm_fullmoon">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M56 45c4.19 0 7-2.81 7-7 0-4.189-2.81-9-7-9 0-10.475-9.525-18-20-18-9.271 0-17.348 6.211-19 15h-2c-5.238 0-9 4.762-9 10s3.762 9 9 9h41z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M7.004 32.959a13.068 13.068 0 0 1-3.961-3.96A12.94 12.94 0 0 1 1 22C1 14.82 6.82 9 14 9c4.604 0 8.646 2.392 10.957 6.001M32 48l-3 7h5l-4 7m12-14l-3 7h5l-4 7M22 48l-3 7h5l-4 7"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_storm_halfmoon">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M56 45c4.19 0 7-2.81 7-7 0-4.189-2.81-9-7-9 0-10.475-9.525-18-20-18-9.271 0-17.348 6.211-19 15h-2c-5.238 0-9 4.762-9 10s3.762 9 9 9h41z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M24.957 15.001C22.646 11.392 18.604 9 14 9c-.826 0-1.631.085-2.414.233A8.945 8.945 0 0 1 13 14.063a9 9 0 0 1-9 9 8.97 8.97 0 0 1-2.98-.516 12.936 12.936 0 0 0 2.023 6.452 13.068 13.068 0 0 0 3.961 3.96M32 48l-3 7h5l-4 7m12-14l-3 7h5l-4 7M22 48l-3 7h5l-4 7"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_storm_sun">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M56 45c4.19 0 7-2.81 7-7 0-4.189-2.81-9-7-9 0-10.475-9.525-18-20-18-9.271 0-17.348 6.211-19 15h-2c-5.238 0-9 4.762-9 10s3.762 9 9 9h41z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M29.999 11.752A12.945 12.945 0 0 0 22 9C14.82 9 9 14.82 9 22c0 2.577.707 3.979 2 6m-5-6H0M22 6V0M10 10L4 4m28 44l-3 7h5l-4 7m12-14l-3 7h5l-4 7M22 48l-3 7h5l-4 7"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_storm-11">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M55 40c4.565 0 8-3.435 8-8 0-4.565-3.435-9-8-9 0-11.414-9.586-20-21-20-10.102 0-19.2 6.423-21 16h-2C5.292 19 1 24.292 1 30s4.292 10 10 10h44zm-32 6l-8 14m-2-14L5 60m28-14l-8 14m18-14l-8 14m18-14l-8 14"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_storm-32">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M55 40c4.565 0 8-3.435 8-8 0-4.565-3.435-9-8-9 0-11.414-9.586-20-21-20-10.102 0-19.2 6.423-21 16h-2C5.292 19 1 24.292 1 30s4.292 10 10 10h44zm-23 6l-3 7h4l-4 7m13-14l-3 7h4l-4 7M22 46l-3 7h4l-4 7"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_sun">
+    <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+      <circle cx="32" cy="32" r="16"></circle>
+      <path d="M32 10V0m0 64V54m22-22h10M0 32h10m38-16l5-5M11 53l5-5m32 0l5 5M11 11l5 5"></path>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_sundown">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M0 47h64M10 37H0m64 0H54M32 15V4M14 23l-8-8m44 8l8-8"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M25 53l7 7 7-7"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M48.159 47A18.913 18.913 0 0 0 51 37c0-10.493-8.506-19-19-19s-19 8.507-19 19c0 3.668 1.04 7.094 2.841 9.998"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_sunset">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M0 47h64M10 37H0m64 0H54M32 15V4M14 23l-8-8m44 8l8-8"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M39 60l-7-7-7 7"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M48.159 47A18.913 18.913 0 0 0 51 37c0-10.493-8.506-19-19-19s-19 8.507-19 19c0 3.668 1.04 7.094 2.841 9.998"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_taurus">
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="43" r="18"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M0 3c14 0 15 12 15 12s0 10 17 10M64 3C50 3 49 15 49 15s0 10-17 10"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_tempest">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M55 40c4.565 0 8-3.435 8-8 0-4.565-3.435-9-8-9 0-11.414-9.586-20-21-20-10.102 0-19.2 6.423-21 16h-2C5.292 19 1 24.292 1 30s4.292 10 10 10h44zm-23 6l-3 7h4l-4 7m18-14l-8 14M22 46l-8 14"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_tempest_fullmoon">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M56 45c4.19 0 7-2.81 7-7 0-4.189-2.81-9-7-9 0-10.475-9.525-18-20-18-9.271 0-17.348 6.211-19 15h-2c-5.238 0-9 4.762-9 10s3.762 9 9 9h41z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M7.004 32.959a13.068 13.068 0 0 1-3.961-3.96A12.94 12.94 0 0 1 1 22C1 14.82 6.82 9 14 9c4.604 0 8.646 2.392 10.957 6.001M32 48l-3 7h4l-4 7m-6-14l-8 14m32-14l-8 14"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_tempest_halfmoon">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M56 45c4.19 0 7-2.81 7-7 0-4.189-2.81-9-7-9 0-10.475-9.525-18-20-18-9.271 0-17.348 6.211-19 15h-2c-5.238 0-9 4.762-9 10s3.762 9 9 9h41z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M24.957 15.001C22.646 11.392 18.604 9 14 9c-.826 0-1.631.085-2.414.233A8.945 8.945 0 0 1 13 14.063a9 9 0 0 1-9 9 8.97 8.97 0 0 1-2.98-.516 12.936 12.936 0 0 0 2.023 6.452 13.068 13.068 0 0 0 3.961 3.96M32 48l-3 7h4l-4 7m-6-14l-8 14m32-14l-8 14"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_tempest_sun">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M56 45c4.19 0 7-2.81 7-7 0-4.189-2.81-9-7-9 0-10.475-9.525-18-20-18-9.271 0-17.348 6.211-19 15h-2c-5.238 0-9 4.762-9 10s3.762 9 9 9h41z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M29.999 11.752A12.945 12.945 0 0 0 22 9C14.82 9 9 14.82 9 22c0 2.577.707 3.979 2 6m-5-6H0M22 6V0M10 10L4 4m28 44l-3 7h4l-4 7m-6-14l-8 14m32-14l-8 14"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_variable_fullmoon">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M56 50c4.19 0 7-2.81 7-7 0-4.189-2.81-9-7-9 0-10.475-9.525-18-20-18-9.271 0-17.348 6.211-19 15h-2c-5.238 0-9 4.762-9 10s3.762 9 9 9h41z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M7.004 37.959a13.068 13.068 0 0 1-3.961-3.96A12.94 12.94 0 0 1 1 27c0-7.18 5.82-13 13-13 4.604 0 8.646 2.392 10.957 6.001"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_variable_halfmoon">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M56 50c4.19 0 7-2.81 7-7 0-4.189-2.81-9-7-9 0-10.475-9.525-18-20-18-9.271 0-17.348 6.211-19 15h-2c-5.238 0-9 4.762-9 10s3.762 9 9 9h41z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M24.957 20.001C22.646 16.392 18.604 14 14 14c-.826 0-1.631.085-2.414.233A8.945 8.945 0 0 1 13 19.063a9 9 0 0 1-9 9 8.97 8.97 0 0 1-2.98-.516 12.936 12.936 0 0 0 2.023 6.452 13.068 13.068 0 0 0 3.961 3.96"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_variable_sun">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M56 50c4.19 0 7-2.81 7-7 0-4.189-2.81-9-7-9 0-10.475-9.525-18-20-18-9.271 0-17.348 6.211-19 15h-2c-5.238 0-9 4.762-9 10s3.762 9 9 9h41z"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M29.999 16.752A12.945 12.945 0 0 0 22 14c-7.18 0-13 5.82-13 13 0 2.577.707 3.979 2 6m-5-6H0m22-16V5M10 15L4 9"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_virgo">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M54 64s-6-5-6-12V12s0-11-8-11-8 11-8 11v40m-16 0V12s.083-11 8-11 8 11 8 11m-16 0S16 2 8 2"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M48 24s0-14 6-14 6 14 6 14-1 34-27 34"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_waning_cresent">
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32.002" cy="31.999" r="31"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M41.002 61.999c-13.242-3.528-22-15.646-22-30 0-14.355 8.756-26.473 22-30M34 5h13m-20 6h28m-33 6h37m-39 6h42m-43 6h44m-44 6h44m-43 6h42m-39 6h36m-32 6h28m-21 6h13"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_waning_gibbous">
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="31"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M23 2c13.242 3.528 22 15.646 22 30 0 14.355-8.756 26.473-22 30m7-3h17m-10-6h18m-13-6h17m-15-6h18m-17-6h18m-18-6h18m-19-6h18m-21-6h18m-22-6h18M30 5h17"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_waxing_cresent">
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="31"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M23 2c13.243 3.528 22 15.646 22 30 0 14.355-8.756 26.473-22 30m7-3H17m20-6H9m33-6H5m39-6H2m43-6H1m44-6H1m43-6H2m39-6H5m32-6H9m21-6H17"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_waxing_gibbous">
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="31"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M41 62c-13.243-3.528-22-15.646-22-30 0-14.355 8.756-26.473 22-30m-7 3H17m10 6H9m13 6H5m15 6H2m17 6H1m18 6H1m19 6H2m21 6H5m22 6H9m25 6H17"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_wind">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M55 40c4.565 0 8-3.435 8-8 0-4.565-3.435-9-8-9 0-11.414-9.586-20-21-20-10.102 0-19.2 6.423-21 16h-2C5.292 19 1 24.292 1 30s4.292 10 10 10m16 18a5 5 0 1 0 5-5H2"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M40 42a5 5 0 1 1 5 5H4"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_wind_E">
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="31"></circle>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="4"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M32 44c6.628 0 25-12 25-12S38.628 20 32 20s-12 5.373-12 12 5.372 12 12 12z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_wind_fullmoon">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M7.004 32.959a13.068 13.068 0 0 1-3.961-3.96A12.94 12.94 0 0 1 1 22C1 14.82 6.82 9 14 9c4.604 0 8.646 2.392 10.957 6.001"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M56 45c4.19 0 7-2.81 7-7 0-4.189-2.81-9-7-9 0-10.475-9.525-18-20-18-9.271 0-17.348 6.211-19 15h-2c-5.238 0-9 4.762-9 10s3.762 9 9 9m12 13a5 5 0 1 0 5-5H2"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M40 44a5 5 0 1 1 5 5H4"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_wind_halfmoon">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M24.957 15.001C22.646 11.392 18.604 9 14 9c-.826 0-1.631.085-2.414.233A8.945 8.945 0 0 1 13 14.063a9 9 0 0 1-9 9 8.97 8.97 0 0 1-2.98-.516 12.936 12.936 0 0 0 2.023 6.452 13.068 13.068 0 0 0 3.961 3.96"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M56 45c4.19 0 7-2.81 7-7 0-4.189-2.81-9-7-9 0-10.475-9.525-18-20-18-9.271 0-17.348 6.211-19 15h-2c-5.238 0-9 4.762-9 10s3.762 9 9 9m12 13a5 5 0 1 0 5-5H2"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M40 44a5 5 0 1 1 5 5H4"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_wind_N">
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="31"></circle>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="4"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M44 32c0-6.628-12-25-12-25S20 25.372 20 32s5.373 12 12 12 12-5.372 12-12z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_wind_NE">
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="31"></circle>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="4"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M40.485 40.484C45.172 35.798 49 15 49 15s-20.799 3.827-25.485 8.514c-4.687 4.688-4.686 12.285 0 16.971 4.685 4.686 12.284 4.687 16.97-.001z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_wind_NW">
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="31"></circle>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="4"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M40.484 23.514C35.798 18.828 15 15 15 15s3.827 20.799 8.514 25.484c4.688 4.688 12.285 4.686 16.971 0 4.686-4.685 4.687-12.283-.001-16.97z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_wind_S">
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="31"></circle>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="4"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M20 32c0 6.628 12 25 12 25s12-18.372 12-25-5.373-12-12-12-12 5.372-12 12z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_wind_SE">
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="31.999" r="31"></circle>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="31.999" r="4"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M23.515 40.484c4.687 4.687 25.484 8.515 25.484 8.515S45.172 28.2 40.485 23.514c-4.688-4.687-12.285-4.686-16.971 0-4.686 4.685-4.687 12.284.001 16.97z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_wind_sun">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M56 45c4.19 0 7-2.81 7-7 0-4.189-2.81-9-7-9 0-10.475-9.525-18-20-18-9.271 0-17.348 6.211-19 15h-2c-5.238 0-9 4.762-9 10s3.762 9 9 9"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M29.999 11.752A12.945 12.945 0 0 0 22 9C14.82 9 9 14.82 9 22c0 2.577.707 3.979 2 6m-5-6H0M22 6V0M10 10L4 4m23 54a5 5 0 1 0 5-5H2m38-9a5 5 0 1 1 5 5H4"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_wind_SW">
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="31"></circle>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="4"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M23.515 23.515C18.828 28.201 15 48.999 15 48.999s20.799-3.827 25.485-8.514c4.687-4.688 4.686-12.285 0-16.971-4.685-4.686-12.284-4.687-16.97.001z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_wind_W">
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="31.999" cy="31.999" r="31"></circle>
+    <circle fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" cx="31.999" cy="31.999" r="4"></circle>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M31.999 19.999c-6.628 0-25 12-25 12s18.372 12 25 12 12-5.373 12-12-5.372-12-12-12z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="weather_windgust">
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M44 40a7 7 0 1 0 7-7H0m49-14a7 7 0 1 1 7 7H0"></path>
+    <path fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M27 45a5 5 0 1 0 5-5H0"></path>
+  </symbol>
+</svg>

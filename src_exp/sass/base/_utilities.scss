@@ -1,0 +1,11 @@
+.row {
+    max-width: 91rem;
+    margin: 0 2rem 0 2rem;
+}
+
+.active {
+
+    &::before {
+        transform: scale(1) !important;
+    }
+}

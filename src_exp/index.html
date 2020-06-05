@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Abel:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="vendors/css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+    <title>Weather | UZ</title>
+
+</head>
+<body>
+    <main>
+        <!-- <div class="video-bg">
+            <video class="bg-video__content" autoplay muted loop>
+                <source src="resources/bg/Weather-Good.mp4" type="video/mp4">
+                <source src="resources/bg/Weather-Good.webm" type="video/webm">
+            </video>
+        </div> -->
+        <div class="main">
+                <div class="row">
+                    <nav class="navigation">
+                        <div class="navigation__left">
+                            <a href="#" class="navigation__logo">Weather<span>App<span class="navigation__copy">&copy;</span></span></a>
+
+                            <div class="navigation__themes">
+                                <svg class="navigation__themes-ico">
+                                    <use xlink:href="resources/icons/sprite.svg#software_paintroller"></use>
+                                </svg>
+
+                                <div class="navigation__dropdown navigation__themes-slidedown">
+                                        <div class="navigation__dropdown-item">
+                                            <input type="radio" class="navigation__statecheck navigation__statecheck--themes-light" id="light" name="theme" value="light" checked>
+                                            <label for="light" class="navigation__state--t">Light</label>
+                                        </div>
+
+                                        <div class="navigation__dropdown-item">
+                                            <input type="radio" class="navigation__statecheck navigation__statecheck--themes-con" id="con" name="theme" value="contrast">
+                                            <label for="con" class="navigation__state--t">Contrast</label>
+                                        </div>
+                                </div>
+                            </div>
+
+                            <div class="navigation__lang">
+                                <span class=navigation__lang-cur>EN</span>
+
+                                <svg class="navigation__lang-ico">
+                                    <use xlink:href="resources/icons/sprite.svg#arrows_down"></use>
+                                </svg>
+
+                                <div class="navigation__dropdown navigation__lang-slidedown">
+                                    <div class="navigation__dropdown-item navigation__en">
+                                        <input type="radio" class="navigation__statecheck" id="en" name="lang" checked>
+                                        <label for="en" class="navigation__state">English</label>
+                                    </div>
+                                    <div class="navigation__dropdown-item navigation__de">
+                                        <input type="radio" class="navigation__statecheck" id="de" name="lang">
+                                        <label for="de" class="navigation__state">Deutsch</label>
+                                    </div>
+                                    <!-- <div class="navigation__dropdown-item navigation__ru">
+                                        <input type="radio" class="navigation__statecheck" id="ru" name="lang">
+                                        <label for="ru" class="navigation__state">Russian</label>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+
+                        <form class="navigation__search">
+                            <input type="text" class="navigation__search-field" placeholder="Search for your location">
+                            <button class="navigation__search-btn">
+                                <svg class="navigation__icons">
+                                    <use xlink:href="resources/icons/sprite.svg#basic_magnifier"></use>
+                                </svg>
+                            </button>
+                            <ul class="navigation__recent-list">
+                                <li class="navigation__recent-items">Recent search</li>
+                                <li class="navigation__recent-item">
+                                    <a href="#" class="navigation__recent-link">Tashkent, Uzbekistan</a>
+                                </li>
+                                <li class="navigation__recent-item"><a href="#" class="navigation__recent-link">Moscow, Russian Federation</a></li>
+                                <li class="navigation__recent-item">
+                                    <a href="#" class="navigation__recent-link">Tashkent, Uzbekistan</a>
+                                </li>
+                            </ul>
+                        </form>
+        
+                        <div class="navigation__right">
+                            <!-- <div class="navigation__btns">
+                                <svg class="navigation__icons">
+                                    <use xlink:href="resources/icons/sprite.svg#basic_clockwise"></use>
+                                </svg>
+                                <div class="navigation__tooltips history">
+                                    <div class="history__title">History</div>
+                                    <ul class="history__list">
+                                        <li class="history__item">
+                                            <a href="#" class="history__link">
+                                                <span class="history__location">Tashkent, Uzbekistan</span>
+                                                <span class="history__snap">15:03, 05-22</span>
+                                            </a>
+                                            <button class="history__remove">
+                                                <svg class="history__icon">
+                                                    <use xlink:href="resources/icons/sprite.svg#arrows_circle_remove"></use>
+                                                </svg>
+                                            </button>
+                                        </li>
+                                        <li class="history__item">
+                                            <a href="#" class="history__link">
+                                                <span class="history__location">Tashkent, Uzbekistan</span>
+                                                <span class="history__snap">15:03, 05-22</span>
+                                            </a>
+                                            
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div> -->
+                            <button class="navigation__print navigation__btns" onclick="jQuery('.data').print()">
+                                <svg class="navigation__icons">
+                                    <use xlink:href="resources/icons/sprite.svg#basic_laptop"></use>
+                                </svg>
+                                <div class="navigation__tooltips">Print</div>
+                            </button>
+                            <button class="navigation__clear navigation__btns">
+                                <svg class="navigation__icons">
+                                    <use xlink:href="resources/icons/sprite.svg#arrows_circle_remove"></use>
+                                </svg>
+                                <div class="navigation__tooltips">Clear</div>
+                            </button>
+                            <button class="navigation__update navigation__btns">
+                                <svg class="navigation__icons">
+                                    <use xlink:href="resources/icons/sprite.svg#arrows_rotate"></use>
+                                </svg>
+                                <div class="navigation__tooltips navigation__tooltips--right">Update</div>
+                            </button>
+                        </div>
+                    </nav>
+                </div>
+            </nav>
+            <!-- <div class="sidebar">
+                History
+            </div> -->
+            <div class="main__suggestion">
+                <!-- <svg class="main__icon">
+                    <use xlink:href="resources/icons/sprite.svg#basic_pin2"></use>
+                </svg>
+                Search for your region to retrieve weather data<span>...</span> -->
+            </div>
+
+            <div class="row">
+                <div class="data">
+                    
+                    <div class="data__location a">
+                        <span class="data__for">
+                            <svg class="data__history">
+                            <use xlink:href="resources/icons/sprite.svg#basic_book_pen"></use>
+                            </svg>
+                            History for
+                        </span>
+                        <span>Tashkent, Uzbekistan</span>
+                    </div>
+
+                    <div class="data__conditions a">
+                        <span class="data__state">Cloudy Rain</span>
+                        <span class="data__substate">13th May</span>
+                        <span class="data__sep">|</span>
+                        <span class="data__substate data__substate--time">15:35</span>
+                    </div>
+                    
+                    <div class="data__main a">
+                        <svg class="data__icon">
+                            <use xlink:href="resources/icons/sprite.svg#weather_downpour_sun"></use>
+                        </svg>
+                        <span class="data__temp">20&deg;C</span>
+                        <span class="data__real">&sim;Real feel 22&deg;</span>
+                    </div>
+
+                    <div class="data__details">
+                        <ul class="data__list">
+                            
+                            <li class="data__item a a-1">
+                                <svg class="data__icons">
+                                    <use xlink:href="resources/icons/sprite.svg#weather_cloud_drop"></use>
+                                </svg>
+                                <span class="data__title">Precipitation</span>
+                                <span class="data__in data__in--precip">30%</span>
+                            </li>
+
+                            <li class="data__item a a-2">
+                                <svg class="data__icons">
+                                    <use xlink:href="resources/icons/sprite.svg#arrows_move_bottom"></use>
+                                </svg>
+                                <span class="data__title">Pressure</span>
+                                <span class="data__in data__in--pres">55</span>
+                            </li>
+
+                            <li class="data__item a a-3">
+                                <svg class="data__icons">
+                                    <use xlink:href="resources/icons/sprite.svg#weather_cloud"></use>
+                                </svg>
+                                <span class="data__title">Cloud cover</span>
+                                <span class="data__in data__in--cloud">~65%</span>
+                            </li>
+                            
+                            <li class="data__item a a-4">
+                                <svg class="data__icons">
+                                    <use xlink:href="resources/icons/sprite.svg#weather_wind"></use>
+                                </svg>
+                                <span class="data__title">Wind speed</span>
+                                <span class="data__in data__in--wspeed">5 m/s</span>
+                            </li>
+                            
+                            <li class="data__item a a-5">
+                                <svg class="data__icons data__compass">
+                                    <use xlink:href="resources/icons/sprite.svg#weather_wind_N"></use>
+                                </svg>
+                                <span class="data__title">Wind direction</span>
+                                <span class="data__in data__in--wdirection">North</span>
+                            </li>
+                            
+                            <li class="data__item a a-6">
+                                <svg class="data__icons">
+                                    <use xlink:href="resources/icons/sprite.svg#weather_drop"></use>
+                                </svg>
+                                <span class="data__title">Humidity</span>
+                                <span class="data__in data__in--humid">40%</span>
+                            </li>
+                            
+                            <li class="data__item a a-7">
+                                <div class="data__icon-box">
+                                    <svg class="data__icons">
+                                        <use xlink:href="resources/icons/sprite.svg#weather_sunset"></use>
+                                    </svg>
+                                    <svg class="data__icons">
+                                        <use xlink:href="resources/icons/sprite.svg#weather_sundown"></use>
+                                    </svg>
+                                </div>
+                                <span class="data__title">Sunset/rise</span>
+                                <span class="data__in data__in--minmax">05:06, 19:35</span>
+                            </li>
+
+                            <li class="data__item a a-8">
+                                <svg class="data__icons">
+                                    <use xlink:href="resources/icons/sprite.svg#weather_sun"></use>
+                                </svg>
+                                <span class="data__title">UV index</span>
+                                <span class="data__in data__in--uv">35</span>
+                            </li>
+
+                            <li class="data__time a-9">Last observation time: 13:25</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="data__forecast swiper-container">
+                        <div class="data__hint">
+                            <svg class="data__hint-i">
+                                <use xlink:href="resources/icons/sprite.svg#arrows_left_double-32"></use>
+                            </svg>
+                            <div class="data__hint-l"></div>
+                            <span class="data__hint-t">Swipe</span>
+                            <div class="data__hint-l"></div>
+                            <svg class="data__hint-i">
+                                <use xlink:href="resources/icons/sprite.svg#arrows_right_double-31"></use>
+                            </svg>
+                        </div>
+
+                        <ul class="data__list-f js--data__list--forecast swiper-wrapper">
+
+                            <li class="data__item-f swiper-slide">
+
+                                <span class="data__title-f">Thur <span class="data__title-f data__title--day">14.05</span></span>
+                                <svg class="data__icons-f">
+                                    <use xlink:href="resources/icons/sprite.svg#weather_storm-11"></use>
+                                </svg>
+                                <span class="data__title-f data__condition-f">Rain</span>
+                                <span class="data__in-f data__in-f--0">23&deg; / 18&deg;</span>
+                            </li>
+
+                            <li class="data__item-f swiper-slide">
+                                <span class="data__title-f">Fri <span class="data__title-f data__title-f--day">15.05</span></span>
+                                <svg class="data__icons-f">
+                                    <use xlink:href="resources/icons/sprite.svg#weather_storm-11"></use>
+                                </svg>
+                                <span class="data__title-f data__condition-f">Rain</span>
+                                <span class="data__in-f data__in-f--0">23&deg; / 18&deg;</span>
+                            </li>
+
+                            <li class="data__item-f swiper-slide">
+                                <span class="data__title-f">Sat <span class="data__title-f data__title-f--day">16.05</span></span>
+                                <svg class="data__icons-f">
+                                    <use xlink:href="resources/icons/sprite.svg#weather_storm-11"></use>
+                                </svg>
+                                <span class="data__title-f data__condition-f">Rain</span>
+                                <span class="data__in-f data__in-f--0">23&deg; / 18&deg;</span>
+                            </li>
+
+                            <li class="data__item-f swiper-slide">
+                                <span class="data__title-f">Sun <span class="data__title-f data__title-f--day">17.05</span></span>
+                                <svg class="data__icons-f">
+                                    <use xlink:href="resources/icons/sprite.svg#weather_storm-11"></use>
+                                </svg>
+                                <span class="data__title-f data__condition-f">Rain</span>
+                                <span class="data__in-f data__in-f--0">23&deg; / 18&deg;</span>
+                            </li>
+
+                            <li class="data__item-f swiper-slide">
+                                <span class="data__title-f">Mon <span class="data__title-f data__title-f--day">18.05</span></span>
+                                <svg class="data__icons-f">
+                                    <use xlink:href="resources/icons/sprite.svg#weather_storm-11"></use>
+                                </svg>
+                                <span class="data__title-f data__condition-f">Rain</span>
+                                <span class="data__in-f data__in-f--0">23&deg; / 18&deg;</span>
+                            </li>
+
+                            <li class="data__item-f swiper-slide">
+                                <span class="data__title-f">Tue <span class="data__title-f data__title-f--day">19.05</span></span>
+                                <svg class="data__icons-f">
+                                    <use xlink:href="resources/icons/sprite.svg#weather_storm-11"></use>
+                                </svg>
+                                <span class="data__title-f data__condition-f">Rain</span>
+                                <span class="data__in-f data__in-f--0">23&deg; / 18&deg;</span>
+                            </li>
+
+                            <li class="data__item-f swiper-slide">
+                                <span class="data__title-f">Wed <span class="data__title-f data__title-f--day">20.05</span></span>
+                                <svg class="data__icons-f">
+                                    <use xlink:href="resources/icons/sprite.svg#weather_storm-11"></use>
+                                </svg>
+                                <span class="data__title-f data__condition-f">Rain</span>
+                                <span class="data__in-f data__in-f--0">23&deg; / 18&deg;</span>
+                            </li>
+
+                            <li class="data__item-f swiper-slide">
+                                <span class="data__title-f">Wed <span class="data__title-f data__title-f--day">21.05</span></span>
+                                <svg class="data__icons-f">
+                                    <use xlink:href="resources/icons/sprite.svg#weather_storm-11"></use>
+                                </svg>
+                                <span class="data__title-f data__condition-f">Rain</span>
+                                <span class="data__in-f data__in-f--0">23&deg; / 18&deg;</span>
+                            </li>
+
+                            <li class="data__item-f swiper-slide">
+                                <span class="data__title-f">Wed <span class="data__title-f data__title-f--day">22.05</span></span>
+                                <svg class="data__icons-f">
+                                    <use xlink:href="resources/icons/sprite.svg#weather_storm-11"></use>
+                                </svg>
+                                <span class="data__title-f data__condition-f">Rain</span>
+                                <span class="data__in-f data__in-f--0">23&deg; / 18&deg;</span>
+                            </li>
+
+                            <li class="data__item-f swiper-slide">
+                                <span class="data__title-f">Wed <span class="data__title-f data__title-f--day">23.05</span></span>
+                                <svg class="data__icons-f">
+                                    <use xlink:href="resources/icons/sprite.svg#weather_storm-11"></use>
+                                </svg>
+                                <span class="data__title-f data__condition-f">Rain</span>
+                                <span class="data__in-f data__in-f--0">23&deg; / 18&deg;</span>
+                            </li>
+
+                            <li class="data__item-f swiper-slide">
+                                <span class="data__title-f">Wed <span class="data__title-f data__title-f--day">24.05</span></span>
+                                <svg class="data__icons-f">
+                                    <use xlink:href="resources/icons/sprite.svg#weather_storm-11"></use>
+                                </svg>
+                                <span class="data__title-f data__condition-f">Rain</span>
+                                <span class="data__in-f data__in-f--0">23&deg; / 18&deg;</span>
+                            </li>
+
+                            <li class="data__item-f swiper-slide">
+                                <span class="data__title-f">Wed <span class="data__title-f data__title-f--day">25.05</span></span>
+                                <svg class="data__icons-f">
+                                    <use xlink:href="resources/icons/sprite.svg#weather_storm-11"></use>
+                                </svg>
+                                <span class="data__title-f data__condition-f">Rain</span>
+                                <span class="data__in-f data__in-f--0">23&deg; / 18&deg;</span>
+                            </li>
+
+                            <li class="data__item-f swiper-slide">
+                                <span class="data__title-f">Wed <span class="data__title-f data__title-f--day">26.05</span></span>
+                                <svg class="data__icons-f">
+                                    <use xlink:href="resources/icons/sprite.svg#weather_storm-11"></use>
+                                </svg>
+                                <span class="data__title-f data__condition-f">Rain</span>
+                                <span class="data__in-f data__in-f--0">23&deg; / 18&deg;</span>
+                            </li>
+
+                            <li class="data__item-f swiper-slide">
+                                <span class="data__title-f">Wed <span class="data__title-f data__title-f--day">27.05</span></span>
+                                <svg class="data__icons-f">
+                                    <use xlink:href="resources/icons/sprite.svg#weather_storm-11"></use>
+                                </svg>
+                                <span class="data__title-f data__condition-f">Rain</span>
+                                <span class="data__in-f data__in-f--0">23&deg; / 18&deg;</span>
+                            </li>
+                        </ul>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                    <div class="main__spinner">
+                        <!-- <svg class="main__loader">
+                            <use xlink:href="resources/icons/sprite.svg#arrows_anticlockwise_dashed"></use>
+                        </svg> -->
+                    </div>
+                </div>
+            </div>
+            <footer class="footer">
+                <p>WeatherData&copy; 2020. Developed and designed by <a href="https://t.me/MiN1One" class="footer__link">MiN1One</a>. Powered by <a href="https://www.weatherbit.io/" class="footer__link">WeatherBit</a>.</p>
+            </footer>
+        </div>
+    </main>
+
+    
+    <script type="text/javascript" src="vendors/js/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+    <script type="text/javascript" src="vendors/js/swiper.min.js"></script>
+    <script type="text/javascript" src="vendors/js/jQuery.print.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>
