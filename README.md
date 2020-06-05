@@ -1,2 +1,2 @@
 # weather-experimental
-test, practise
+test, practise, ajax
