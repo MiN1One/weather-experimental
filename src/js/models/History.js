@@ -44,11 +44,6 @@ export default class History {
     }
 
     inHistory(location) {
-        // if (this.history.length > 0) {
-        //     const index = this.history.findIndex(el => el.location === location);
-        //     if (this.history[index] !== location) return true;
-        //     else return false;
-        // } else return true;
         return this.history.findIndex(el => el.location === location) !== -1;
     }
 };

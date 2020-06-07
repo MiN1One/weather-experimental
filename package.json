@@ -9,7 +9,7 @@
     "compile:sass": "node-sass src/sass/main.scss src/resources/css/style.comp.css",
     "concat:css": "",
     "prefix:css": "postcss --use autoprefixer -b \"last 10 versions\" src/resources/css/style.comp.css -o src/resources/css/style.prefix.css",
-    "compress:sass": "node-sass src/resources/css/style.prefix.css src/resources/css/style.min.css --output-style compressed",
+    "compress:sass": "node-sass src/resources/css/style.prefix.css dist/resources/css/style.min.css --output-style compressed",
     "build:css": "npm-run-all compile:sass concat:css prefix:css",
     "dev": "webpack --mode development",
     "bundle": "webpack --mode production",
@@ -40,6 +40,8 @@
     "axios": "^0.19.2",
     "babel-polyfill": "^6.26.0",
     "core-js": "^3.6.5",
+    "js-sha256": "^0.9.0",
+    "sjcl": "^1.0.8",
     "uniqid": "^5.2.0"
   }
 }

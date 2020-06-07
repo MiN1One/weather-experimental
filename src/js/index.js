@@ -193,4 +193,3 @@ window.addEventListener('load', () => {
 
 let utcTimeZone = new Date().getTimezoneOffset() / 60;
 console.log(`TIMEZONE : ${utcTimeZone}`);
-

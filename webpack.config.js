@@ -5,7 +5,7 @@ module.exports = {
     entry: ['babel-polyfill', './src/js/index.js'],
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'js/app.min-fix.js'
+        filename: 'js/app.min.fix.js'
     },
     devServer: {
         contentBase: './dist'

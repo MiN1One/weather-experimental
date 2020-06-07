@@ -2,11 +2,10 @@ import { elements } from './base';
 import * as Search from '../models/Search';
 import * as Language from '../models/Language';
 
-let today = new Date();
-
 export const formatTime = () => {
-    let mins = today.getMinutes();
-    let hours = today.getHours();
+    let t = new Date();
+    let mins = t.getMinutes();
+    let hours = t.getHours();
     if (mins < 10) {
         mins = `0${mins}`;
     }
@@ -17,11 +16,12 @@ export const formatTime = () => {
 };
 
 export const formatDate = lang => {
+    let t = new Date();
     let months;
     if (lang === 'de') months = ['Januar', 'Februar', 'März', 'April', 'Mai', 'Juni', 'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember'];
     else months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
-    let month = today.getMonth();
-    let date = today.getDate();
+    let month = t.getMonth();
+    let date = t.getDate();
     let ending;
     if (lang !== 'de') {
         if (String(date).endsWith('1')) ending = 'st';
@@ -79,25 +79,29 @@ const formatWind = string => {
     return string.charAt(0).toUpperCase() + string.slice(1);
 };
 
-let utcTimeZoneRaw = today.getTimezoneOffset() / 60;
 let utcTimeZone;
-if (utcTimeZoneRaw <= 0) utcTimeZone = Math.abs(utcTimeZoneRaw)
-else utcTimeZone = utcTimeZoneRaw;
+let utcTimeZoneRaw;
+
+const getTimeZone = () => {
+    let t = new Date();
+    utcTimeZoneRaw = t.getTimezoneOffset() / 60;
+    utcTimeZone = (utcTimeZoneRaw <= 0) ? Math.abs(utcTimeZoneRaw) : utcTimeZoneRaw;
+    return utcTimeZone, utcTimeZoneRaw;
+};
 
 const timeZoneString = () => {
-    if (utcTimeZone > 0) return `+${utcTimeZone}`
-    else return `-${utcTimeZone}`;
+    getTimeZone();
+    if (utcTimeZoneRaw > 0) return `-${utcTimeZone}`
+    else return `+${utcTimeZone}`;
 };
 
 const formatSunriseTime = (rise, format = 24) => {
+    getTimeZone();
+    console.log(utcTimeZone);
+    console.log(utcTimeZoneRaw);
     let sunrise = rise.split(':');
-    let sunriseHours;
     
-    if (utcTimeZoneRaw > 0) {
-        sunriseHours = parseInt(sunrise[0]) - utcTimeZone;
-    } else {
-        sunriseHours = parseInt(sunrise[0]) + utcTimeZone;
-    };
+    let sunriseHours = (utcTimeZoneRaw > 0) ? parseInt(sunrise[0]) - utcTimeZone : parseInt(sunrise[0]) + utcTimeZone;
     
     if (sunriseHours > format) {
         const differenceRise = sunriseHours - format;
@@ -109,14 +113,11 @@ const formatSunriseTime = (rise, format = 24) => {
 };
 
 const formatSunsetTime = (set, format = 24) => {
+    getTimeZone();
+    console.log(utcTimeZone);
+    console.log(utcTimeZoneRaw);
     let sunset = set.split(':');
-    let sunsetHours;
-
-    if (utcTimeZoneRaw > 0) {
-        sunsetHours = parseInt(sunset[0]) - utcTimeZone;
-    } else {
-        sunsetHours = parseInt(sunset[0]) + utcTimeZone;
-    };
+    let sunsetHours = (utcTimeZoneRaw > 0) ? parseInt(sunset[0]) - utcTimeZone : parseInt(sunset[0]) + utcTimeZone;
 
     if (sunsetHours > format) {
         const differenceSet = sunsetHours - format;
@@ -305,7 +306,7 @@ const renderDetails = (data, f) => {
             <span class="data__in data__in--minmax">${formatSunriseTime(data.sunrise)}, ${formatSunsetTime(data.sunset)}</span>
             <div class="data__sunriseset">
                 <span class="data__text">Time is calculated in accordance with your local timezone</span>
-                <span class="data__timeoffset">UTC ${timeZoneString()}</span>
+                <span class="data__timeoffset">UTC ${timeZoneString(getTimeZone(false))}</span>
             </div>
         </li>
 
