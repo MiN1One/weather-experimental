@@ -306,7 +306,7 @@ const renderDetails = (data, f) => {
             <span class="data__in data__in--minmax">${formatSunriseTime(data.sunrise)}, ${formatSunsetTime(data.sunset)}</span>
             <div class="data__sunriseset">
                 <span class="data__text">Time is calculated in accordance with your local timezone</span>
-                <span class="data__timeoffset">UTC ${timeZoneString(getTimeZone(false))}</span>
+                <span class="data__timeoffset">UTC ${timeZoneString()}</span>
             </div>
         </li>
 
