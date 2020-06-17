@@ -27,9 +27,7 @@ export const formatDate = lang => {
         if (String(date).endsWith('1')) ending = 'st';
         else if (String(date).endsWith('2')) ending = 'nd'; 
         else if (String(date).endsWith('3')) ending = 'rd';
-        else if (date == 11) ending = 'th';
-        else if (date == 12) ending = 'th';
-        else if (date == 13) ending = 'th';
+        else if (date == 11 || date == 12 || date == 13) ending = 'th';
         else ending = 'th'
         return `${months[month]} ${date}${ending}`;
     } else return `${months[month]} ${date}`;
