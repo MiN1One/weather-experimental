@@ -58,7 +58,7 @@ const translateToDE = () => {
     media.addEventListener('change', fixGridMedia);
 
     // FOOTER 
-    document.querySelector('.footer').innerHTML = '<p>WeatherApp&copy; 2020. Angetrieben von <a href="https://www.weatherbit.io/" class="footer__link">WeatherBit.</a> Entwickelt nur zum Lernen in der Praxis.</p>';
+    document.querySelector('.footer').innerHTML = '<p>WeatherApp&copy; 2020. Angetrieben von <a href="https://www.weatherbit.io/" class="footer__link">WeatherBit.</a> Entwickelt von <a href="https://t.me/MiN1One" class="footer__link">MiN1One</a> nur für Lernzwecke.</p>';
 };
 
 // ****************** ENGLISH *******************
@@ -114,7 +114,7 @@ const translateToEN = () => {
     media.addEventListener('change', fixGridMedia);
 
     // FOOTER
-    document.querySelector('.footer').innerHTML = '<p>WeatherApp&copy; 2020. Powered by <a href="https://www.weatherbit.io/" class="footer__link">WeatherBit.</a> Developed only for learn-in-practice purposes.</p>'
+    document.querySelector('.footer').innerHTML = '<p>WeatherApp&copy; 2020. Powered by <a href="https://www.weatherbit.io/" class="footer__link">WeatherBit.</a> Developed only for learn-in-practice purposes by <a href="https://t.me/MiN1One" class="footer__link">MiN1One.</a></p>'
 };
 
 const d = s => {
