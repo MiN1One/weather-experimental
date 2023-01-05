@@ -4,7 +4,6 @@ const langState = Array.from(document.querySelectorAll('.navigation__state'));
 const langStateR = Array.from(document.querySelectorAll('.navigation__r-state'));
 const en = document.querySelector('#en');
 const de = document.querySelector('#de');
-const ru = document.querySelector('#ru');
 const enR = document.querySelector('#r-en');
 const deR = document.querySelector('#r-de');
 

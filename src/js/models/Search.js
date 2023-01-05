@@ -1,7 +1,8 @@
 import axios from 'axios';
 import uniqid from 'uniqid';
-import { p } from '../keys';
 import sjcl from 'sjcl';
+
+const API_KEY = '35cf6338ede440b58d3aef92030e35e6';
 
 export default class Search {
     constructor(location, metric = 'M', lang = 'en') {
@@ -13,10 +14,10 @@ export default class Search {
 
     async getMainData() {
         try {
-            const wb = await axios(`https://api.weatherbit.io/v2.0/current?key=${sjcl.decrypt(p, '{"iv":"i91WuY4B1pYqAIjOlmqm9Q==","v":1,"iter":10000,"ks":128,"ts":64,"mode":"ccm","adata":"","cipher":"aes","salt":"uC/0o0o5lyc=","ct":"o2VpGWMokX9o4+Zi+Dg5oI/aZvd6Kr/aZgMq4DXnWRzixW8RFgjQhw=="}')}&lang=${this.lang}&units=${this.metric}&city=${this.location}`);
+            const wb = await axios(`https://api.weatherbit.io/v2.0/current?key=${API_KEY}&lang=${this.lang}&units=${this.metric}&city=${this.location}`);
             this.data = wb.data.data[0];
+            console.log({ data: wb });
             this.country = parseCountryCodes(this.data.country_code);
-            console.log(this.data);
         } catch(error) {
             console.log(error);
         }
@@ -24,7 +25,7 @@ export default class Search {
 
     async getForecast() {
         try {
-            const wbForecast = await axios(`https://api.weatherbit.io/v2.0/forecast/daily?key=${sjcl.decrypt(p, '{"iv":"i91WuY4B1pYqAIjOlmqm9Q==","v":1,"iter":10000,"ks":128,"ts":64,"mode":"ccm","adata":"","cipher":"aes","salt":"uC/0o0o5lyc=","ct":"o2VpGWMokX9o4+Zi+Dg5oI/aZvd6Kr/aZgMq4DXnWRzixW8RFgjQhw=="}')}&lang=${this.lang}&units=${this.metric}&city=${this.location}`);
+            const wbForecast = await axios(`https://api.weatherbit.io/v2.0/forecast/daily?key=${API_KEY}&lang=${this.lang}&units=${this.metric}&city=${this.location}`);
             this.forecast = wbForecast.data.data;
             console.log(this.forecast);
         } catch(error) {

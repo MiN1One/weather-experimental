@@ -1,5 +1,3 @@
-import { formatTime, formatDate } from '../views/searchView';
-
 export default class History {
     constructor() {
         this.history = [];
